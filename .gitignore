@@ -5,11 +5,14 @@ _site
 debug_script/*
 */.DS_Store
 */.vscode
-Langs/*/README.html
-
 
 # python
 pyproject.toml
 
 # in progress
 computing-systems/*
+
+###########
+Langs/R/README.html
+Langs/C/README.html
+Langs/Python/README.html
