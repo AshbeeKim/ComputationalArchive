@@ -1,0 +1,11 @@
+# all
+_site
+.DS_Store
+.vscode
+debug_script/*
+
+# python
+pyproject.toml
+
+# in progress
+computing-systems/*
