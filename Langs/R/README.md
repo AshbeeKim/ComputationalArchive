@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ko">
     <!--head, style, body 나중에 다시 정리하기-->
     <head>
