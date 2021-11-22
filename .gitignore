@@ -3,8 +3,6 @@ _site
 .DS_Store
 .vscode
 debug_script/*
-*/.DS_Store
-*/.vscode
 
 # python
 pyproject.toml
