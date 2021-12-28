@@ -3,9 +3,10 @@
 * matplotlib
 * seaborn
 * plotly
+* tabpy(Tableau * Python)
 * folium
-* missingno
 * ggplot
+* missingno
 * bokeh
 * geoplotlib
 * altair

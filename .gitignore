@@ -9,8 +9,15 @@ pyproject.toml
 
 # in progress
 computing-systems/*
+Langs/Python/VSL/Tabpy Tutorial.ipynb
 
 ###########
 Langs/R/README.html
 Langs/C/README.html
 Langs/Python/README.html
+Tools/*
+
+# confidential
+Langs/Python/*.csv
+Langs/Python/task.py
+Langs/SQL/task.sql
