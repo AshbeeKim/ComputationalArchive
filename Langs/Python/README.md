@@ -5,16 +5,23 @@
 
 <!--contents-->
 
+# Python
 
-<h1><b>Python</b></h1>
-<!--
-마크다운 멍청이라서 색상 변경 못함....
--->
-<h2><a href="">Introduction</a></h2>
-<li>Programming in Python</li>
-<h2>Data Structures</h2>
+## Intro
+개발자가 해야하는 생각과 일을 처리하는 방식은 알 것 같으면서도 어렵게 느껴집니다.
+이전까지 코딩 용어가 단순하게도 영어로 표현한 언어라 생각했었고 천천히 쌓아야 할 내용들을 급히 우겨넣어 소화되지 않은 개념들이 엉키며, 개발자 사회에서의 정의나 깊이가 다름을 크게 체감했습니다.
+제가 목표로 삼았던 분이 조언해주신 방식으로 정신 단디 차리고 똑띠 일할 수 있도록, 우선 당분간 CS 기초를 쌓을 예정입니다.
+함수형 프로그래밍에 대한 부족한 이해는 큰 컨셉만 알고 끝내지 않도록, 빌드업 후 정리하겠습니다.
+
+### ver 3.9
+<li>
+  <b>Basic</b>
+  
+  - [x] [logger](https://github.com/AshbeeKim/cs-archive/wiki/Python-logger)
+</li>
+<!--<h2>Data Structures</h2>
 <h2>Analyzing Data with Python</h2>
-<h2>Visualization</h2>
+<h2>Visualization</h2>-->
 <!--https://mode.com/blog/python-data-visualization-libraries/-->
 
 
