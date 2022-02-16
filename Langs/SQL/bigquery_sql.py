@@ -7,6 +7,7 @@ class PubBigQuery:
     
     def __init__(self, option=False):
         self.option = option
+        self.dataset_refs, self.datasets = self.request_dataset(*args)
 
     def request_dataset(self, *args):
         if self.option:
@@ -14,14 +15,14 @@ class PubBigQuery:
             dataset_refs = dict([(idx, self.client.dataset(name, project='bigquery-public-data')) for idx, name in enumerate(args)])
 
             # API request
-            datasets = dict()
+            datasets = OrderedDict()
             for _k, _v in dataset_refs.items():
-                datasets[_k] = self.client.get_dataset(_v)
+                datasets[_v.dataset_id] = self.client.get_dataset(_v)
                 time.sleep(3)
             return dataset_refs, datasets
         else:
-            dataset_ref = self.client.dataset(''.join(args), project='bigquery-public-data')
-            dataset = self.client.get_dataset(dataset_ref)
+            dataset_ref = {0: self.client.dataset(''.join(args), project='bigquery-public-data')}
+            dataset = {(dataset_ref.get(0)).dataset_id: self.client.get_dataset((dataset_ref.get(0)))}
             return dataset_ref, dataset
         
     def check_table(self):
