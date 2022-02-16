@@ -18,6 +18,28 @@ Kaggle Course를 통해 공부하니까 Python으로 BigQuery를 사용하는 �
 * As & With
 * Joining Data
 
+```python
+# bigquery_sql.py
+
+## Case 1: request a dataset(not recommended)
+pbq = PubBigQuery("chicago_crime")
+
+### Customized Lesson 1
+pbq.check_schema("0.crime")
+pbq.check_schema("0.crime", "timestamp")
+pbq.check_schema("0.crime", "BOOLEAN")
+```
+
+| 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|
+|![init and checks](https://github.com/AshbeeKim/cs-archive/blob/master/bigquery_py_1.png)|  |  |  |  |  |
+
+<!--
+| 4 | 5 | 6 |
+|---|---|---|
+|  |  |  |
+-->
+
 ### [Advanced SQL](https://www.kaggle.com/learn/advanced-sql)
 4개의 과정임에도 4시간의 소요될 것이라 적혀있어서, 넉넉히 8시간 정도 걸릴 것으로 예상됩니다.
 
