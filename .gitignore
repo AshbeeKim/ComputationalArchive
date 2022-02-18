@@ -1,23 +1,20 @@
-# all
+# init
 _site
 .DS_Store
 .vscode
+.idea
 debug_script/*
 
-# python
+# envs
 pyproject.toml
 
 # in progress
 computing-systems/*
-Langs/Python/VSL/Tabpy Tutorial.ipynb
+Programming/VSL/Tabpy Tutorial.ipynb
 
-###########
-Langs/R/README.html
-Langs/C/README.html
-Langs/Python/README.html
 Tools/*
 
 # confidential
-Langs/Python/*.csv
-Langs/Python/task.py
-Langs/SQL/task.sql
+*/*.csv
+*/task.py
+*/task.sql
