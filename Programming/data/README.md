@@ -69,9 +69,9 @@ HAVING COUNT(1) > 10
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_1.png "init and checks") | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_2.png "check and edit") | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_3.png "print out to markdown") |
 
-| 4 | 5 | 6 |
-|---|---|---|
-|  |  |  |
+  MySQL로 작성하는 것에 익숙하다면, 캐글 Intro to SQL에서는 크게 어려운 부분이 없을 수 있다. (그리고 아직 한참 멀었지만... 사용되는 함수만 다를 뿐 큰 틀은 달라지지 않아서, 용법만 알면 SQL에서 각 언어별 필요한 함수를 보다 빨리 찾을 수 있다는 것을 체감하고 있는 요즘이다.) 익숙하지 않았던ㄷ Query의 활용에 있어서, 해당 과정에서 예상보다 오래 걸렸던 부분이 WITH AS(temporary 테이블 생성)를 활용한 query 였다.
+
+  SQL에서 서브쿼리(query내 query)를 사용할 때 새로운 테이블이 생성되는데, 이러한 서브 쿼리를 지속해서 사용한다면 메모리 차원에서 문제가 발생할 수 있다. WITH절은 이러한 문제를 해결할 수 있는데, 일시적으로 테이블을 생성할 수 있기 때문이다.(단, WITH 절을 남용했을 때 가용 정도를 넘어가면 느려진다고 한다.)
 
   BigQuery의 기본 설정 언어 [^sql_b]에 대해 확인한 바로는 표준 SQL과 legacy SQL이라는 두 가지 SQL 언어를 지원한다. Kaggle에서부터 표준 SQL로 사용했기에, bq 명령줄 도구나 REST API에서도 표준 SQL을 사용하고자 한다면 `.bigqueryrc`를 편집하는 방법이 있다.
 ```bash
@@ -89,12 +89,17 @@ legacy SQL이 익숙하다면, Python 클라이언트 라이브러리의 경우 
 
 **Lessons**
 - [x] JOINs and UNIONs
-- [ ] Analytic Functions
+- [x] Analytic Functions
 - [ ] Nested and Repeated Data
 - [ ] Writing Efficient Queries
 
+<!--
+| 1 | 2 | 3 |
+|---|---|---|
+|  |  |  |
+-->
 
-  Google BigQuery 가이드나 샘플을 병행해서 읽으며, "`bigquery_sql.py`를 왜 작성했나." 에 대한 생각이 들었다. 쿼리 스크립트나, BigQuery API로 쿼리 코드 샘플을 읽으며, 이미 되어 있는 내용을 필요할 때마다 간단한 함수로만 작성해서 사용하는 게 낫겠다고 생각했다. 그럼에도 계속해서 해당 파일을 계속해서 보수해야겠다고 판단한 이유는 당장 급하게 확인하고, 편하게 사용할 수 있는 방법(본인 기준)이기 때문이다.
+  Google BigQuery 가이드나 샘플을 병행해서 읽으며, '`bigquery_sql.py`를 왜 작성했나.'하는 생각이 들었다. 쿼리 스크립트나, BigQuery API로 쿼리 코드 샘플을 읽으며, 이미 되어 있는 내용을 필요할 때마다 간단한 함수로만 작성해서 사용하는 게 낫겠다고 생각했다. 그럼에도 계속해서 해당 파일을 계속해서 보수해야겠다고 판단한 이유는 당장 급하게 확인하고, 편하게 사용할 수 있는 방법(본인 기준)이기 때문이다.
 
 
 > #### MySQL
@@ -107,17 +112,37 @@ Sololearn을 통해 공부했던 SQL은 Kaggle로 공부한 SQL을 정리한 뒤
 ![Alt text](https://img.shields.io/badge/Python-v3.7%20%7C%20v3.9-blue.svg?&style=flat&logo=Python&logoColor=white&labelColor=abcdef&cacheSeconds=3600$logoWidth=60)
 
 ### Steps
-* [Basic](#basic)
+* [ETL](#etl)
 * [EDA](#eda)
 * [FE](#fe)
 
-> #### Basic
-- [x] [logger](https://github.com/AshbeeKim/cs-archive/wiki/Python-logger)
+> #### ETL
+- [x] json
+- [ ] csv
+- [x] xml
+- [x] urllib
+- [x] requests
+- [x] [BeautifulSoup]
+- [ ] [Selenium]
+- [ ] [Playwright]
 
 > #### EDA
-- [ ] re
+- [ ] [Internationalization](https://docs.python.org/3.9/library/i18n.html)
+- [ ] [Python Language Service](https://docs.python.org/ko/3.9/library/language.html)
+- [ ] [Numpy]
+- [ ] [Pandas]
+- [ ] [scikit-learn]
+<!--
+- [ ] [Gensim]
+- [ ] [OpenCV]
+-->
 
 > #### FE
+- [ ] [scikit-learn]
+<!--
+- [ ] [TensorFlow]
+- [ ] [PyTorch]
+-->
 
 ---
 > ## R
