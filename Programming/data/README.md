@@ -69,9 +69,9 @@ HAVING COUNT(1) > 10
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_1.png "init and checks") | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_2.png "check and edit") | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_3.png "print out to markdown") |
 
-  MySQL로 작성하는 것에 익숙하다면, 캐글 Intro to SQL에서는 크게 어려운 부분이 없을 수 있다. (그리고 아직 한참 멀었지만... 사용되는 함수만 다를 뿐 큰 틀은 달라지지 않아서, 용법만 알면 SQL에서 각 언어별 필요한 함수를 보다 빨리 찾을 수 있다는 것을 체감하고 있는 요즘이다.) 익숙하지 않았던ㄷ Query의 활용에 있어서, 해당 과정에서 예상보다 오래 걸렸던 부분이 WITH AS(temporary 테이블 생성)를 활용한 query 였다.
+  MySQL로 작성하는 것에 익숙하다면, 캐글 Intro to SQL에서는 크게 어려운 부분이 없을 수 있다. (그리고 아직 한참 멀었지만... 사용되는 함수만 다를 뿐 큰 틀은 달라지지 않아서, 용법만 알면 SQL에서 각 언어별 필요한 함수를 보다 빨리 찾을 수 있다는 것을 체감하고 있는 요즘이다.) 익숙하지 않았던 Query의 활용에 있어서, 해당 과정에서 예상보다 오래 걸렸던 부분이 WITH AS(temporary 테이블 생성)를 활용한 query 였다.
 
-  SQL에서 서브쿼리(query내 query)를 사용할 때 새로운 테이블이 생성되는데, 이러한 서브 쿼리를 지속해서 사용한다면 메모리 차원에서 문제가 발생할 수 있다. WITH절은 이러한 문제를 해결할 수 있는데, 일시적으로 테이블을 생성할 수 있기 때문이다.(단, WITH 절을 남용했을 때 가용 정도를 넘어가면 느려진다고 한다.)
+  SQL에서 서브쿼리(query내 query)를 사용할 때 새로운 테이블이 생성되는데, 이러한 서브 쿼리를 지속해서 사용한다면 메모리 차원에서 문제가 발생할 수 있다. WITH절은 이러한 문제를 해결할 수 있는데, 일시적으로 테이블을 생성할 수 있기 때문이다. 단, WITH 절을 남용했을 때 가용 정도를 넘어가면 느려진다고 한다. 반면, 생성한 WITH 절의 구문을 여러 번 참조하는 쿼리를 작성하는 것은 WITH 절 활용의 좋은 예가 될 수 있다.
 
   BigQuery의 기본 설정 언어 [^sql_b]에 대해 확인한 바로는 표준 SQL과 legacy SQL이라는 두 가지 SQL 언어를 지원한다. Kaggle에서부터 표준 SQL로 사용했기에, bq 명령줄 도구나 REST API에서도 표준 SQL을 사용하고자 한다면 `.bigqueryrc`를 편집하는 방법이 있다.
 ```bash
@@ -93,6 +93,9 @@ legacy SQL이 익숙하다면, Python 클라이언트 라이브러리의 경우 
 - [ ] Nested and Repeated Data
 - [ ] Writing Efficient Queries
 
+
+  여태까지 Kaggle 이나, Dacon 등에서 제공받은 데이터 외의 데이터를 활용할 때에 데이터 수집에 어려움을 겪었던 이유를 찾았다. 우선 raw 데이터를 찾는 것부터 쉽지 않고, 수집하면서도 정확한 정의가 되지 않았기 때문이다. 왜 필요한지, 왜 필요하지 않은지. 어떠한 데이터를 특정한 분석 목적을 가지고 활용을 하기 위해서는 수집 시 적어도 큰 범주에서의 정의(table, schema)는 이루어져야 하고, 데이터의 양이 방대하다면 사용하는 쿼리는 서브 쿼리 혹은 임시 테이블 생성 등 중/고급의 쿼리를 작성할 줄 알아야 한다는 것이다. (물론 RDBMS를 막 실습하는 입장에서, 이미지나 음성 데이터 분석에 필요하다는 이유로 NoSQL을 활용하기란 어렵다.)
+
 <!--
 | 1 | 2 | 3 |
 |---|---|---|
@@ -102,10 +105,17 @@ legacy SQL이 익숙하다면, Python 클라이언트 라이브러리의 경우 
   Google BigQuery 가이드나 샘플을 병행해서 읽으며, '`bigquery_sql.py`를 왜 작성했나.'하는 생각이 들었다. 쿼리 스크립트나, BigQuery API로 쿼리 코드 샘플을 읽으며, 이미 되어 있는 내용을 필요할 때마다 간단한 함수로만 작성해서 사용하는 게 낫겠다고 생각했다. 그럼에도 계속해서 해당 파일을 계속해서 보수해야겠다고 판단한 이유는 당장 급하게 확인하고, 편하게 사용할 수 있는 방법(본인 기준)이기 때문이다.
 
 
-> #### MySQL
-Sololearn을 통해 공부했던 SQL은 Kaggle로 공부한 SQL을 정리한 뒤, 중복되지 않는 범위를 천천히 공유하겠다.
-참고로 프로그래머스로 MySQL이나 Oracle을 연습하는 방법도 있다.
+> #### MySQL/Oracle
 
+  MySQL 혹은 Oracle을 공부하거나 실습할 수 있는 플랫폼으로는 Programmers, Elice Coding, Sololearn 등이 있다. 이 중, 앱으론 Sololearn, 웹으론 Programmers 를 주로 사용했었다.
+
+```Python
+# Python
+import pymysql  # to connect MySQL
+import cx_Oracle    # to connect Oracle
+```
+
+  Python에 SQL을 활용하기 위해서는 위와 같은 라이브러리를 import 해야 한다. 
 
 ---
 > ## Python
@@ -117,13 +127,10 @@ Sololearn을 통해 공부했던 SQL은 Kaggle로 공부한 SQL을 정리한 뒤
 * [FE](#fe)
 
 > #### ETL
-- [x] json
+- [x] json/xml
 - [ ] csv
-- [x] xml
-- [x] urllib
-- [x] requests
-- [x] [BeautifulSoup]
-- [ ] [Selenium]
+- [x] urllib/requests
+- [x] [BeautifulSoup]/[Selenium]
 - [ ] [Playwright]
 
 > #### EDA
