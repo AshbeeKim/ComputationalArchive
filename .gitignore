@@ -18,3 +18,7 @@ Tools/*
 */*.csv
 */task.py
 */task.sql
+*/*.py
+*/*.sql
+*/*.r
+*/*.md
