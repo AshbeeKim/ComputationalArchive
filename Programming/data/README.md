@@ -139,21 +139,33 @@ import cx_Oracle    # to connect Oracle
 - [ ] [Numpy]
 - [ ] [Pandas]
 - [ ] [scikit-learn]
-<!--
-- [ ] [Gensim]
 - [ ] [OpenCV]
--->
 
 > #### FE
 - [ ] [scikit-learn]
 <!--
 - [ ] [TensorFlow]
 - [ ] [PyTorch]
+- [ ] [Gensim]
 -->
 
 ---
 > ## R
 
+
+```python
+# R을 python에서 사용할 때
+## ipynb
+from rpy2.robjects import r
+%load_ext rpy2.ipython
+
+%%R
+install.packages("data.table")
+install.packages("plyr")    #adply, ddply, m*ply, etc.
+install.packages("dplyr")
+install.packages("sqldf")
+install.packages("reshape")
+```
 
 ---
 [^sql-a]: Because of throughput or latency, I supposed the ideal number of datasets is not more than 3.
