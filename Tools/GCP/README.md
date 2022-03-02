@@ -6,7 +6,7 @@
 * [Basic](#basic)
 * [Set-ups](#set-ups)
 * [Cluster](#cluster)
-
+* [Awards](#awards)
 
 > ### Basic [^gcloud-cli-overview]
 ```bash
@@ -42,8 +42,11 @@ kubectl expose deployment hello-server --type=LoadBalancer --port [PORT NO]
 * **TCP/UDP**
 * **HTTP(s)**
 
+> ### Awards [^awards]
+* [Google Cloud Essentials](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1743709)
 
 ---
+[^awards]: 배지가 발급되는 과정이면 develop profile로 바로 연동할텐데(Lab과 커뮤니티 프로필은 다름), 특정 스킬셋 과정만 배지가 발급되는 것 같아서 아직 한 과정만 수료했지만 동기를 잃지 않을 목적으로 공유함.
 [^gcloud-cli-overview]: [gcloud CLI overview](https://cloud.google.com/sdk/gcloud)
 [^regions-and-zones]: [Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
 [^standard-cluster-architecture]: [Standard Cluster Architecture](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-architecture)
