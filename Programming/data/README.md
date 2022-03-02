@@ -7,7 +7,7 @@
 
 ---
 > ## SQL
-### Contents
+### Contexts
 * [BigQuery](#bigquery)
 * [MySQL](#mysql)
 
@@ -68,8 +68,8 @@ HAVING COUNT(1) > 10
 | 1                                                                                                               | 2                                                                                                              | 3                                                                                                                     |
 |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_1.png "init and checks") | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_2.png "check and edit") | ![Alt text](https://github.com/AshbeeKim/cs-archive/blob/master/src/images/bigquery_py_3.png "print out to markdown") |
-
-  MySQL로 작성하는 것에 익숙하다면, 캐글 Intro to SQL에서는 크게 어려운 부분이 없을 수 있다. (그리고 아직 한참 멀었지만... 사용되는 함수만 다를 뿐 큰 틀은 달라지지 않아서, 용법만 알면 SQL에서 각 언어별 필요한 함수를 보다 빨리 찾을 수 있다는 것을 체감하고 있는 요즘이다.) 익숙하지 않았던 Query의 활용에 있어서, 해당 과정에서 예상보다 오래 걸렸던 부분이 WITH AS(temporary 테이블 생성)를 활용한 query 였다.
+  
+  PostgreSQL로 작성하는 것에 익숙하다면, 캐글 Intro to SQL에서는 크게 어려운 부분이 없을 수 있다. (그리고 아직 한참 멀었지만... 사용되는 함수만 다를 뿐 큰 틀은 달라지지 않아서, 용법만 알면 SQL에서 각 언어별 필요한 함수를 보다 빨리 찾을 수 있다는 것을 체감하고 있는 요즘이다. MySQL으로만 공부 중인 나에게도 Intro to SQL은 비교적 쉬웠으니까.) 익숙하지 않았던 Query의 활용에 있어서, 해당 과정에서 예상보다 오래 걸렸던 부분이 WITH AS(temporary 테이블 생성)를 활용한 query 였다.
 
   SQL에서 서브쿼리(query내 query)를 사용할 때 새로운 테이블이 생성되는데, 이러한 서브 쿼리를 지속해서 사용한다면 메모리 차원에서 문제가 발생할 수 있다. WITH절은 이러한 문제를 해결할 수 있는데, 일시적으로 테이블을 생성할 수 있기 때문이다. 단, WITH 절을 남용했을 때 가용 정도를 넘어가면 느려진다고 한다. 반면, 생성한 WITH 절의 구문을 여러 번 참조하는 쿼리를 작성하는 것은 WITH 절 활용의 좋은 예가 될 수 있다.
 
