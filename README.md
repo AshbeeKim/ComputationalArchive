@@ -22,17 +22,19 @@
   프로그래밍과 관련된 전반적인 내용 혹은 키워드가 궁금한 분은 [Programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm "WIKIPEDIA - Programming paradigm") [^b] 을 참고하면 좋을 것 같다.
 
 <div height="300px">
-![Alt text](https://en.wikipedia.org/wiki/Programming_paradigm#/media/File:Programming_paradigms.svg "Overview of the various programming paradigms according to Peter Van Roy")
+<img src="https://en.wikipedia.org/wiki/Programming_paradigm#/media/File:Programming_paradigms.svg" alt="Overview of the various programming paradigms according to Peter Van Roy"/>
 </div>
 
   DA나 DS 쪽을 자동화 하는 것에 관심이 많다보니, 전체 flow가 진행됨에 있어서 잊었거나 몰랐던 개념을 Python으로 응용하는 것에 중점을 두고 차차 정리할 예정이다. 대략적인 정리 순서는 DB>EDA/FE>ML/DL로 편하려고 작성한 코드를 공유하겠지만, VSL이나 CI/CD는 tutorial 예시만 사용하는 게 맞다고 생각된다.
 
 ---
 ### Tools
+* [GCP](https://github.com/AshbeeKim/cs-archive/blob/master/Tools/GCP/README.md)
 * Git/GitHub <!-- git-scm에 정리가 잘 되어 있는데, 굳이 정리가 필요할까?? -->
 
 ---
 ### etc.
+* [aaS](https://github.com/AshbeeKim/cs-archive/blob/master/etc/SIPaaS.md)
 * [자동화 프로그래밍](https://en.wikipedia.org/wiki/Automatic_programming "WIKIPEDIA - automatic programming")
 * 개인정보보호-리포트
 

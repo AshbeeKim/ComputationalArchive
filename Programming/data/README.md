@@ -85,24 +85,31 @@ HAVING COUNT(1) > 10
 legacy SQL이 익숙하다면, Python 클라이언트 라이브러리의 경우 default가 표준 SQL로 되었기에 `bigquery.QueryJobConfig(use_legacy_sql=True)`와 같이 extra configuration을 설정하는 방법을 추천한다. 
 
 ##### [Advanced SQL](https://www.kaggle.com/learn/advanced-sql "Kaggle SQL Course - Advanced SQL")
- 4개의 과정이 4시간의 소요될 것이라 적혀, 넉넉히 8시간 정도 걸릴 것으로 예상했었다. `bigquery_sql.py`를 수정하던 중, 공개 데이터 세트 [^sql_c] 도 추가적으로 확인해서 예상보다 시간을 더 잡아야 할 것 같다.
+ 4개의 과정이 4시간의 소요될 것이라 적혀, 넉넉히 8시간 정도 걸릴 것으로 예상했었다. 
 
 **Lessons**
 - [x] JOINs and UNIONs
 - [x] Analytic Functions
-- [ ] Nested and Repeated Data
-- [ ] Writing Efficient Queries
+- [x] Nested and Repeated Data
+- [x] Writing Efficient Queries
 
+TIME_DIFF [^time-fuction] 에서도 LAG를 활용한 문제는...휴...역시 활용을 잘 하려면 아는 게 많아야 한다.(~~나는 바보다.~~) 잘만 활용하면, time-series 분석을 위한 처리(sliding window와 같은)에도 도움이 될 것 같아서 메모를 남긴다.
+```postgresql
+# LAG - 값 기준 이전 로우 값 반환(<-> LEAD)
+LAG([conditions], [order number], [default value]) OVER ([PARTITION BY], [ORDER BY])
+```
 
-  여태까지 Kaggle 이나, Dacon 등에서 제공받은 데이터 외의 데이터를 활용할 때에 데이터 수집에 어려움을 겪었던 이유를 찾았다. 우선 raw 데이터를 찾는 것부터 쉽지 않고, 수집하면서도 정확한 정의가 되지 않았기 때문이다. 왜 필요한지, 왜 필요하지 않은지. 어떠한 데이터를 특정한 분석 목적을 가지고 활용을 하기 위해서는 수집 시 적어도 큰 범주에서의 정의(table, schema)는 이루어져야 하고, 데이터의 양이 방대하다면 사용하는 쿼리는 서브 쿼리 혹은 임시 테이블 생성 등 중/고급의 쿼리를 작성할 줄 알아야 한다는 것이다. (물론 RDBMS를 막 실습하는 입장에서, 이미지나 음성 데이터 분석에 필요하다는 이유로 NoSQL을 활용하기란 어렵다.)
+SchemaFiled의 타입이 'RECORD'인 경우, dictionary 형태로 입력되어 조회 시 유의미한 결과를 출력하려면 특정 값의 키가 무엇인지 파악해야 한다. `table_name.schema[number]`로 입력하면 특정 Schema 만 조회가 가능하다.
+```postgresql
+sample_commits_table.schema[7]
+-- SchemaField('trailer', 'RECORD', 'REPEATED', None, (SchemaField('key', 'STRING', 'NULLABLE', None, (), None), SchemaField('value', 'STRING', 'NULLABLE', None, (), None), SchemaField('email', 'STRING', 'NULLABLE', None, (), None)), None)
+```
 
-<!--
-| 1 | 2 | 3 |
-|---|---|---|
-|  |  |  |
--->
+`UNNEST()`를 활용하는 문제에서 `query=~`으로 주어진 첨부된 이미지를 믿지 말라는 얘기를 꼭 하고 싶다. 그 위의 테이블 조회를 참고하면, 바로 수정해야 할 부분이 보이지만 그래도 보여지는 이미지를 참고해서 뜬 오류 메시지를 확인하면 기분이 유쾌하지 않기 때문이다.
 
-  Google BigQuery 가이드나 샘플을 병행해서 읽으며, '`bigquery_sql.py`를 왜 작성했나.'하는 생각이 들었다. 쿼리 스크립트나, BigQuery API로 쿼리 코드 샘플을 읽으며, 이미 되어 있는 내용을 필요할 때마다 간단한 함수로만 작성해서 사용하는 게 낫겠다고 생각했다. 그럼에도 계속해서 해당 파일을 계속해서 보수해야겠다고 판단한 이유는 당장 급하게 확인하고, 편하게 사용할 수 있는 방법(본인 기준)이기 때문이다.
+여태까지 Kaggle 이나, Dacon 등에서 제공받은 데이터 외의 데이터를 활용할 때에 데이터 수집에 어려움을 겪었던 이유를 찾았다. 우선 raw 데이터를 찾는 것부터 쉽지 않고, 수집하면서도 정확한 정의가 되지 않았기 때문이다. 왜 필요한지, 왜 필요하지 않은지. 어떠한 데이터를 특정한 분석 목적을 가지고 활용을 하기 위해서는 수집 시 적어도 큰 범주에서의 정의(table, schema)는 이루어져야 하고, 데이터의 양이 방대하다면 사용하는 쿼리는 서브 쿼리 혹은 임시 테이블 생성 등 중/고급의 쿼리를 작성할 줄 알아야 한다는 것이다. (물론 RDBMS를 막 실습하는 입장에서, 이미지나 음성 데이터 분석에 필요하다는 이유로 NoSQL을 활용하기란 어렵다.)
+
+Google BigQuery 가이드나 샘플을 병행해서 읽으며, '`bigquery_sql.py`를 왜 작성했나.'하는 생각이 들었다. 쿼리 스크립트나, BigQuery API로 쿼리 코드 샘플을 읽으며, 이미 되어 있는 내용을 필요할 때마다 간단한 함수로만 작성해서 사용하는 게 낫겠다고 생각했다. 그럼에도 계속해서 해당 파일을 계속해서 보수해야겠다고 판단한 이유는 당장 급하게 확인하고, 편하게 사용할 수 있는 방법(본인 기준)이기 때문이다.
 
 
 > #### MySQL/Oracle
@@ -171,5 +178,7 @@ install.packages("reshape")
 [^sql-a]: Because of throughput or latency, I supposed the ideal number of datasets is not more than 3.
 [^sql_b]: [SQL 언어 전환](https://cloud.google.com/bigquery/docs/reference/standard-sql/enabling-standard-sql?hl=ko#python "Google BigQuery Documents - SQL 언어 전환")
 [^sql_c]: [BigQuery 공개 데이터 세트](https://cloud.google.com/bigquery/public-data?hl=ko "Google BigQuery Documents - BigQuery 공개 데이터 세트")
+[^time-function]: [Time funtions](https://cloud.google.com/bigquery/docs/reference/standard-sql/time_functions "Google BigQuery Documents - Time funtiions")
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f8ba0a,100:0174b7&height=200&section=footer&text=Thank%20You&fontSize=50&fontAlignY=70&fontColor=fff"/>
