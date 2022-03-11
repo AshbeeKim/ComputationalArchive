@@ -42,11 +42,24 @@ kubectl expose deployment hello-server --type=LoadBalancer --port [PORT NO]
 * **TCP/UDP**
 * **HTTP(s)**
 
-> ### Awards [^awards]
-* [Google Cloud Essentials](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1743709)
+
+
+> ### Badges [^badges]
+* Quest
+    * [Google Cloud Essentials](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1743709)
+    * [Create and Manage Cloud Resources](https://www.cloudskillsboost.google/quests/120) :construction: 5/6 :construction:
+    * [Baseline: Infrastructure](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1757293)
+    * [Perform Foundational Infrastructure Tasks in Google Cloud](https://www.cloudskillsboost.google/quests/118) :construction: 5/6 :construction:
+    * [Cloud Engineering](https://www.cloudskillsboost.google/quests/66)  :construction: 2/6 :construction:
+    * [Kubernetes in Google Cloud](https://www.cloudskillsboost.google/quests/29)  :construction: 1/5 :construction:
+    * [Engineer Data in Google Cloud](https://www.cloudskillsboost.google/quests/132)
+* Course
+    * [Google Cloud Fundamentals: Core Infrastructure](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1753227)
+    * [Getting Started With Application Development](https://www.cloudskillsboost.google/course_templates/22) :construction:
+    * [Google Cloud Big Data and Machine Learning Fundamentals](https://www.cloudskillsboost.google/course_templates/3) :construction:
 
 ---
-[^awards]: 배지가 발급되는 과정이면 develop profile로 바로 연동할텐데(Lab과 커뮤니티 프로필은 다름), 특정 스킬셋 과정만 배지가 발급되는 것 같아서 아직 한 과정만 수료했지만 동기를 잃지 않을 목적으로 공유함.
+[^badges]: Certification 배지가 발급되는 과정이면 develop profile로 바로 연동할텐데(Lab과 커뮤니티 프로필은 다름), Certification 시험 신청 전까지 계속해서 공부할 동기를 잃지 않을 목적으로 공유함.
 [^gcloud-cli-overview]: [gcloud CLI overview](https://cloud.google.com/sdk/gcloud)
 [^regions-and-zones]: [Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
 [^standard-cluster-architecture]: [Standard Cluster Architecture](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-architecture)
