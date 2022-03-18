@@ -126,10 +126,11 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
 * Course
     * [Google Cloud Fundamentals: Core Infrastructure](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1753227)
     * [Google Cloud Big Data and Machine Learning Fundamentals](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1762243)
+    * [Modernizing Data Lakes and Data Warehouses with Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1771612)
     * [Serverless Data Processing with Dataflow: Foundations](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1769918)
     * [How Google Does Machine Learning](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1771330)
     * [Building Batch Data Pipelines on Google Cloud](https://www.cloudskillsboost.google/course_templates/53) :construction: 4/7 :construction:
-    * [Modernizing Data Lakes and Data Warehouses with Google Cloud](https://www.cloudskillsboost.google/course_templates/54) :construction: 4/6 :construction:
+    * [Building Resilient Streaming Analytics Systems on Google Cloud](https://www.cloudskillsboost.google/course_templates/52) :construction: 3/8 :construction:
     * [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/course_templates/55) :construction: 5/9 :construction:
     * [Getting Started With Application Development](https://www.cloudskillsboost.google/course_templates/22) :construction: 3/7 :construction:
 
