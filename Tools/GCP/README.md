@@ -130,10 +130,10 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [Building Resilient Streaming Analytics Systems on Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1778507)
     * [Serverless Data Processing with Dataflow: Foundations](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1769918)
     * [How Google Does Machine Learning](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1771330)
-    * [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/course_templates/55) :construction: 5/9 :construction:
-    * [Serverless Data Processing with Dataflow: Develop Pipeline](https://www.cloudskillsboost.google/course_templates/229) :construction: 1/10 :construction:
-    * [Serverless Data Processing with Dataflow: Operations](https://www.cloudskillsboost.google/course_templates/264) :construction: 0/9 :construction:
-    * [Preparing for the Google Cloud Professional Data Engineer Exam](https://www.cloudskillsboost.google/course_templates/72) :construction: 0/8 :construction:
+    * [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1781392)
+    * [Serverless Data Processing with Dataflow: Develop Pipeline](https://www.cloudskillsboost.google/course_templates/229) :construction: 6/10 :construction:
+    * [Serverless Data Processing with Dataflow: Operations](https://www.cloudskillsboost.google/course_templates/264) :construction: 5/9 :construction:
+    * [Preparing for the Google Cloud Professional Data Engineer Exam](https://www.cloudskillsboost.google/course_templates/72) :construction: 3/8 :construction:
     * [Getting Started With Application Development](https://www.cloudskillsboost.google/course_templates/22) :construction: 3/7 :construction:
 
 계속해서 `Qwiklabs`를 통해 훈련하면서 느낀 것은 리눅스 기본적인 것만 알고서 응용을 잘 하려면 진짜 시도하는 게 중요하다는 점이다. 'multi-region말고 single-region이 latency를 낮출 수 있다.'와 같은 코드 외에 알 수 있는 부분도 시도하면서, 그리고 문서를 더 찾아보면서 알 수 있는 내용이다. 사막의 모래 한 알 정도는 알고 있다고 생각했는데, 미세먼지만도 못한 나의 얕음에 최소한 무엇을 할 수 있는 사람인지를 정의할 목적으로 `Qwiklabs`이나 `Sololearn`을 통해 공부해야겠다.(사실 `Azure`도 구독은 했는데 취업 동향을 보니까 `AWS`나 `GCP`가 많아서, 언젠가 "Hybrid" 관련 컨셉을 공부할 때, 구독을 업그레이드할 듯.)
