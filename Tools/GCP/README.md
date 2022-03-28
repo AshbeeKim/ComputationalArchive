@@ -132,7 +132,7 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [How Google Does Machine Learning](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1771330)
     * [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1781392)
     * [Serverless Data Processing with Dataflow: Develop Pipeline](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1787317)
-    * [Serverless Data Processing with Dataflow: Operations](https://www.cloudskillsboost.google/course_templates/264) :construction: 8/9 :construction:
+    * [Serverless Data Processing with Dataflow: Operations](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1790320)
     * [Preparing for the Google Cloud Professional Data Engineer Exam](https://www.cloudskillsboost.google/course_templates/72) :construction: 3/8 :construction:
     * [Getting Started With Application Development](https://www.cloudskillsboost.google/course_templates/22) :construction: 5/7 :construction:
 
