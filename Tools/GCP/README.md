@@ -121,7 +121,7 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [Create and Manage Cloud Resources](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1759790)
     * [Perform Foundational Infrastructure Tasks in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/17593428)
     * [Perform Foundational Data, ML, and AI Tasks in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1769828)
-    * [Engineer Data in Google Cloud](https://www.cloudskillsboost.google/quests/132) :construction:
+    * [Engineer Data in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1799102)
 * Digital badge
     * [Kubernetes in Google Cloud](https://www.cloudskillsboost.google/quests/29)  :construction: 1/5 :construction:
 * Course
