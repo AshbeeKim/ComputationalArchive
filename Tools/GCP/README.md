@@ -18,6 +18,7 @@ gcloud config list project
 gcloud compute instances create [INSTANCE NAME]
 gcloud compute instances list
 gcloud components list
+cloudshell download [FILE NAME]
 ```
 
 
@@ -137,9 +138,9 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [Preparing for the Google Cloud Professional Data Engineer Exam](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1791848)
     * [Preparing for Your Associate Cloud Engineer Journey](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1822321)
     * [Essential Google Cloud Infrastructure: Foundation](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/18242460)
-    * [Essential Google Cloud Infrastructure: Core Services](https://www.cloudskillsboost.google/course_templates/49) :construction: 3/6 :construction:
-    * [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.cloudskillsboost.google/course_templates/178) :construction:
-    * [Reliabel Google Cloud Infrastructure: Design and Process](https://www.cloudskillsboost.google/course_templates/41) :construction:
+    * [Essential Google Cloud Infrastructure: Core Services](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1831495)
+    * [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.cloudskillsboost.google/course_templates/178) :construction: 1/6 :construction:
+    * [Reliabel Google Cloud Infrastructure: Design and Process](https://www.cloudskillsboost.google/course_templates/41) :construction: 1/11 :construction:
     * [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/course_templates/2) :construction:
     * [Getting Started With Application Development](https://www.cloudskillsboost.google/course_templates/22) :construction: 5/7 :construction:
 
