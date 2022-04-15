@@ -123,6 +123,8 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [Perform Foundational Infrastructure Tasks in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/17593428)
     * [Perform Foundational Data, ML, and AI Tasks in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1769828)
     * [Engineer Data in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1799102)
+    * [Set Up and Configure a Cloud Environment in Google Cloud](https://www.cloudskillsboost.google/quests/119) :construction: 2/6 :construction:
+    * [Automating Infrastructure on Google Cloud with Terraform](https://www.cloudskillsboost.google/quests/159) :construction: 0/5 :construction:
 * Digital badge
     * [Kubernetes in Google Cloud](https://www.cloudskillsboost.google/quests/29)  :construction: 1/5 :construction:
 * Course
@@ -139,9 +141,9 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [Preparing for Your Associate Cloud Engineer Journey](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1822321)
     * [Essential Google Cloud Infrastructure: Foundation](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/18242460)
     * [Essential Google Cloud Infrastructure: Core Services](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1831495)
-    * [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.cloudskillsboost.google/course_templates/178) :construction: 1/6 :construction:
+    * [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1834523)
     * [Reliabel Google Cloud Infrastructure: Design and Process](https://www.cloudskillsboost.google/course_templates/41) :construction: 1/11 :construction:
-    * [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/course_templates/2) :construction:
+    * [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/course_templates/2) :construction: 1/6 :construction:
     * [Getting Started With Application Development](https://www.cloudskillsboost.google/course_templates/22) :construction: 5/7 :construction:
 
 계속해서 `Qwiklabs`를 통해 훈련하면서 느낀 것은 리눅스 기본적인 것만 알고서 응용을 잘 하려면 진짜 시도하는 게 중요하다는 점이다. 'multi-region말고 single-region이 latency를 낮출 수 있다.'와 같은 코드 외에 알 수 있는 부분도 시도하면서, 그리고 문서를 더 찾아보면서 알 수 있는 내용이다. 사막의 모래 한 알 정도는 알고 있다고 생각했는데, 미세먼지만도 못한 나의 얕음에 최소한 무엇을 할 수 있는 사람인지를 정의할 목적으로 `Qwiklabs`이나 `Sololearn`을 통해 공부해야겠다.(사실 `Azure`도 구독은 했는데 취업 동향을 보니까 `AWS`나 `GCP`가 많아서, 언젠가 "Hybrid" 관련 컨셉을 공부할 때, 구독을 업그레이드할 듯.)
