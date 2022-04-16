@@ -117,16 +117,16 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [Baseline: Infrastructure](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1757293)
     * [Baseline: Data, ML, AI](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1767263)
     * [Data Engineering](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1796672)
-    * [Cloud Engineering](https://www.cloudskillsboost.google/quests/66)  :construction: 2/6 :construction:
+    * [Cloud Engineering](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1836002)
 * Skill badge
     * [Create and Manage Cloud Resources](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1759790)
     * [Perform Foundational Infrastructure Tasks in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/17593428)
     * [Perform Foundational Data, ML, and AI Tasks in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1769828)
     * [Engineer Data in Google Cloud](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1799102)
-    * [Set Up and Configure a Cloud Environment in Google Cloud](https://www.cloudskillsboost.google/quests/119) :construction: 2/6 :construction:
-    * [Automating Infrastructure on Google Cloud with Terraform](https://www.cloudskillsboost.google/quests/159) :construction: 0/5 :construction:
+    * [Set Up and Configure a Cloud Environment in Google Cloud](https://www.cloudskillsboost.google/quests/119) :construction: 5/6 :construction:
+    * [Automating Infrastructure on Google Cloud with Terraform](https://www.cloudskillsboost.google/quests/159) :construction:
 * Digital badge
-    * [Kubernetes in Google Cloud](https://www.cloudskillsboost.google/quests/29)  :construction: 1/5 :construction:
+    * [Kubernetes in Google Cloud](https://www.cloudskillsboost.google/quests/29)  :construction: 3/5 :construction:
 * Course
     * [Google Cloud Fundamentals: Core Infrastructure](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1753227)
     * [Google Cloud Big Data and Machine Learning Fundamentals](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1762243)
@@ -142,7 +142,7 @@ gsutil cp ./data.csv gs://$BUCKET_NAME/
     * [Essential Google Cloud Infrastructure: Foundation](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/18242460)
     * [Essential Google Cloud Infrastructure: Core Services](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1831495)
     * [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.cloudskillsboost.google/public_profiles/97e8f540-bf60-4f75-9a8e-025c1cc95a24/badges/1834523)
-    * [Reliabel Google Cloud Infrastructure: Design and Process](https://www.cloudskillsboost.google/course_templates/41) :construction: 1/11 :construction:
+    * [Reliabel Google Cloud Infrastructure: Design and Process](https://www.cloudskillsboost.google/course_templates/41) :construction: 4/11 :construction:
     * [Getting Started with Google Kubernetes Engine](https://www.cloudskillsboost.google/course_templates/2) :construction: 1/6 :construction:
     * [Getting Started With Application Development](https://www.cloudskillsboost.google/course_templates/22) :construction: 5/7 :construction:
 
