@@ -3,6 +3,7 @@ _site
 .DS_Store
 .vscode
 .idea
+.env
 debug_script/*
 
 # envs
@@ -12,8 +13,6 @@ Pipfile
 # in progress
 computing-systems/*
 Programming/VSL/Tabpy Tutorial.ipynb
-
-Tools/*
 
 # avoid auto-update
 ## local
