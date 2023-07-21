@@ -1,6 +1,34 @@
 outs:
-- md5: 53c55b4b45f5d67445dee3892b0c53f5.dir
-  size: 58678965
-  nfiles: 4
-  hash: md5
+- hash: md5
   path: projects
+  files:
+  - relpath: .DS_Store
+    md5: 42b3be869172c3e43c1250cb9ad9d064
+    size: 6148
+  - relpath: dacon/.DS_Store
+    md5: ca63272167f88d123c2478b91b97c2cc
+    size: 6148
+  - relpath: dacon/README.md
+    md5: d41d8cd98f00b204e9800998ecf8427e
+  - relpath: dacon/d236117/ARIMA.ipynb
+    md5: d033e06a85601baec5a7a1280c1f3931
+    size: 13459
+  - relpath: dacon/d236117/README.md
+    md5: aed908d6734240267eeef117db7bd03d
+    size: 1978
+  - relpath: dacon/d236117/RF.ipynb
+    md5: 27a6c4e1edcb1fef36a248dcc1ec1ef2
+    size: 363316
+  - relpath: dacon/d236117/append_case.py
+    md5: b0ae7661dcd78f75a448c030a75de0a6
+    size: 807
+  - relpath: dacon/d236117/baseline_submission.csv
+    md5: 859a6a26c5a5c87fa8083386b68f5dea
+    size: 24913
+  - relpath: dacon/d236117/sample_submission.csv
+    md5: 86e00ce48d1ee2511cd86d7c55b31a1e
+  - relpath: dacon/d236117/train.csv
+    md5: 6874b12d8b92b1fbbb9eb11bad8de217
+  - relpath: src/utils/dt_util.py
+    md5: ec3e52d736996ae661b5f73afe2e49f5
+    size: 553
