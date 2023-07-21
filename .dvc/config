@@ -1,0 +1,11 @@
+[core]
+    remote = ./.env
+    hardlink_lock = true
+    autostage = true
+['remote "./.env"']
+    url = gdrive://14fxyKsgbf9xXgubjT-I9v6jr3fEQd1NR/.env
+    gdrive_acknowledge_abuse = true
+    gdrive_client_id = client-id
+    gdrive_user_credentials_file = ../.env/gdrive-proj-client.json
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = ../.env/gdrive-proj-service.json
