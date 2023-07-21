@@ -6,30 +6,5 @@ _site
 .env
 debug_script/*
 
-# envs
-pyproject.toml
-Pipfile
-
 # in progress
-computing-systems/*
-Programming/VSL/Tabpy Tutorial.ipynb
-
-# avoid auto-update
-## local
-*.json
-*.txt
-*.csv
-*.jpg
-*.png
-## posts
-*.md
-*.html
-*.css
-*.ipynb
-## langs
-*.py
-*.sh
-*.sql
-*.r
-*.c
-*.cpp
+docs/architecture/
