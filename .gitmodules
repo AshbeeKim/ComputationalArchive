@@ -1,3 +1,6 @@
-[submodule "kotlin"]
+[submodule "language/kotlin"]
 	path = language/kotlin
 	url = git@github.com:AshbeeKim/kotlin_study.git
+[submodule "language/dart/lang"]
+	path = language/dart/lang
+	url = git@github.com:AshbeeKim/dart_study.git
