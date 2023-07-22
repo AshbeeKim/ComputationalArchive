@@ -13,9 +13,12 @@ outs:
   - relpath: dacon/d236117/ARIMA.ipynb
     md5: d033e06a85601baec5a7a1280c1f3931
     size: 13459
+  - relpath: dacon/d236117/CAPM.ipynb
+    md5: 0aa03ecccd76245ff09a875ff3260caf
+    size: 1001000
   - relpath: dacon/d236117/README.md
-    md5: aed908d6734240267eeef117db7bd03d
-    size: 1978
+    md5: 03f06f85810765118781e2c01212fc04
+    size: 7440
   - relpath: dacon/d236117/RF.ipynb
     md5: 27a6c4e1edcb1fef36a248dcc1ec1ef2
     size: 363316
@@ -24,6 +27,9 @@ outs:
     size: 807
   - relpath: dacon/d236117/baseline_submission.csv
     md5: 859a6a26c5a5c87fa8083386b68f5dea
+    size: 24913
+  - relpath: dacon/d236117/capm_lr_daily_252_30p_close_e.csv
+    md5: 2dda7daf1214acf30722540682c37a01
     size: 24913
   - relpath: dacon/d236117/sample_submission.csv
     md5: 86e00ce48d1ee2511cd86d7c55b31a1e
