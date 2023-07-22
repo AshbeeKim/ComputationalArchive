@@ -14,8 +14,8 @@ outs:
     md5: d033e06a85601baec5a7a1280c1f3931
     size: 13459
   - relpath: dacon/d236117/CAPM.ipynb
-    md5: 0aa03ecccd76245ff09a875ff3260caf
-    size: 1001000
+    md5: fd62d0e24eca2e1e937f09ca1c6a24a1
+    size: 2466237
   - relpath: dacon/d236117/README.md
     md5: 03f06f85810765118781e2c01212fc04
     size: 7440
@@ -28,9 +28,36 @@ outs:
   - relpath: dacon/d236117/baseline_submission.csv
     md5: 859a6a26c5a5c87fa8083386b68f5dea
     size: 24913
+  - relpath: dacon/d236117/capm_cat_daily_252_30p_close.csv
+    md5: 62977fcfc8ada549801a76062cfb147a
+    size: 19677
+  - relpath: dacon/d236117/capm_cat_daily_252_30p_close_f.csv
+    md5: beb751ba0889de3e5ae15b687151601e
+    size: 33126
+  - relpath: dacon/d236117/capm_lgb_daily_252_30p_close_f.csv
+    md5: 5e6d6912e62cd7e5fd3fcd1ea2e2d60e
+    size: 24913
   - relpath: dacon/d236117/capm_lr_daily_252_30p_close_e.csv
     md5: 2dda7daf1214acf30722540682c37a01
     size: 24913
+  - relpath: dacon/d236117/capm_lr_daily_252_30p_close_f.csv
+    md5: 45a161fc1e8b7da8b133600f0b8bdeef
+    size: 24913
+  - relpath: dacon/d236117/capm_xgb_daily_252_30p_close_f.csv
+    md5: 92d6c80a9d0f9bce642f0acfcbe7a81f
+    size: 24913
+  - relpath: dacon/d236117/catboost_info/catboost_training.json
+    md5: c947ce27d59727c3e72880b8e0a24f01
+    size: 10163
+  - relpath: dacon/d236117/catboost_info/learn/events.out.tfevents
+    md5: 3958bcbb7cd509e92a3e39e7a80433c9
+    size: 4798
+  - relpath: dacon/d236117/catboost_info/learn_error.tsv
+    md5: 5c413df5bec55b09b30f937bb9b339a8
+    size: 1686
+  - relpath: dacon/d236117/catboost_info/time_left.tsv
+    md5: 1a88ae6e85d6109e1aa4b94881eb6ebd
+    size: 1017
   - relpath: dacon/d236117/sample_submission.csv
     md5: 86e00ce48d1ee2511cd86d7c55b31a1e
   - relpath: dacon/d236117/train.csv
