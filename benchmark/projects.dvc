@@ -1,6 +1,331 @@
 outs:
-- md5: e8a568dbf3fad25f24fbafe54cf3cac9.dir
-  size: 337737618
-  nfiles: 101
-  hash: md5
+- hash: md5
   path: projects
+  files:
+  - relpath: dacon/d236117/backups/capm_rf_daily_252_30p_close.csv.csv
+    md5: d10fd61e93135bb56780ae735c5762c1
+    size: 24913
+  - relpath: dacon/d236117/models/cases_0.pkl
+    md5: 5cb76125928939f1306ebc744bef7f14
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_1.pkl
+    md5: 370a9c1cdd727d625a964bf46ff6ac61
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_10.pkl
+    md5: 0828449f43d80902a094cf1a2ffc55a0
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_11.pkl
+    md5: e2e52cf3aac7ce70f6dfedc1fbd2d089
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_12.pkl
+    md5: 89e7d0ae68179c7f9b69797a9b1ddc80
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_13.pkl
+    md5: fced2af22174c580cfde0db068528b85
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_14.pkl
+    md5: 9715f79ecc80d6c821e1e87765a56608
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_15.pkl
+    md5: 8986c1c4999282f1bbda74c25cda7acb
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_16.pkl
+    md5: ba6b7b5361cf6c846b8ec25988f0be88
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_17.pkl
+    md5: 06afe071f61c9e3d6b83d5014e5564bf
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_18.pkl
+    md5: 487e964d50a5408784cce53ffcb95693
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_19.pkl
+    md5: 55a593a5e3b9ad218f9f1ec3c6e83aa6
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_2.pkl
+    md5: d3ab40735731f3012ed2bb2d111d90af
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_20.pkl
+    md5: 64a09d38ab286516515aab4e762288ab
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_21.pkl
+    md5: 8c4a2617c2dd707142866e4fbf655954
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_22.pkl
+    md5: 919b54278889735cb869fd289573a843
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_23.pkl
+    md5: c3a7d433869a2ec25e4583003554199a
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_24.pkl
+    md5: 1198731d557f65ec445264eb978c7972
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_25.pkl
+    md5: 218ca86cad79b25887f4a0ce1db254c8
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_26.pkl
+    md5: e13c02168e32b01cd44ba08b65a8cfb0
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_27.pkl
+    md5: 2e732bb8363fb3d4914711b7ce05dde5
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_28.pkl
+    md5: 41b39e3ce0af5e2bd3ee8681943cd17c
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_29.pkl
+    md5: a638adb01a0265aacbd80073c9dd5f82
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_3.pkl
+    md5: 4a8027963166c1443a814263e9f4b8bc
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_30.pkl
+    md5: d706817a5163e174693979beb1a33857
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_31.pkl
+    md5: 2f1264cad700500e9677e2cb79c09ded
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_32.pkl
+    md5: 824ed63ac46b29ccb0cf0dc64c7e85fe
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_33.pkl
+    md5: c1d272ef927e675a4ef2f090f863b546
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_34.pkl
+    md5: b0f3dd2db14a919837df05503ae90de3
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_35.pkl
+    md5: e92a52a4903a5375eed0d6b2fd656b74
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_36.pkl
+    md5: 8955905f4c0ddd09473ff7294d31a376
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_37.pkl
+    md5: 4589edc63f9489691b500b54eed6da96
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_38.pkl
+    md5: b938a57b59ff1c53776532307f4eab37
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_39.pkl
+    md5: b775c7a162c12de9090265ed71b69097
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_4.pkl
+    md5: e4873a43b8433e9fcf5007a1ff5ec4e3
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_40.pkl
+    md5: 4fd4ea7b430e11060a878b43a47b08e8
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_41.pkl
+    md5: 32ab1ad09d6aa853d827014aed348f8c
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_42.pkl
+    md5: 0c5ba575f68f0068631031cad2c7f876
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_43.pkl
+    md5: 53811727cec33e59d2e83c92a4cba5c6
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_44.pkl
+    md5: 2a78c7c304fed687bd299b852c4e1efb
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_45.pkl
+    md5: a122e2006ab041561201cf86caeebda2
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_46.pkl
+    md5: 07f1e8645152f0b8739233f785ae691b
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_47.pkl
+    md5: b7bf2cc42ffac01607ecd09b54db4444
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_48.pkl
+    md5: b7369b4f96ad2622ff47df3648fcdeb6
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_49.pkl
+    md5: 64ae224f74b951296afa4f1f22f01d43
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_5.pkl
+    md5: 618e3b80e66b3fb71a65c3b374bbdb09
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_50.pkl
+    md5: 4397ad898878b84241a7f6be242cccdc
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_51.pkl
+    md5: 18b33cde2c441b4c8bcfc820123ba2aa
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_52.pkl
+    md5: 2b58f57ed27cdc9e9748e68ac945b919
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_53.pkl
+    md5: 4d3b766109f1982ae5d536ea1b84d1fc
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_54.pkl
+    md5: 3f363eaffcf90cd7e53a223f7b2e3c94
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_55.pkl
+    md5: a6193e1ef3a8728ff15ef34ba71c67d1
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_56.pkl
+    md5: eb02975aa33099e99faac920bb255ec0
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_57.pkl
+    md5: 97a7c2859df1d641356d951519fa627b
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_58.pkl
+    md5: 1b760e8523d3ef67b95e608eecf0904e
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_59.pkl
+    md5: e444f3d6ba767c855bcd4f326915d6b6
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_6.pkl
+    md5: 2fecbbf8d01c708d208a19223e34aaa1
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_60.pkl
+    md5: 87e9534ba5b84e231591db9a90344026
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_61.pkl
+    md5: 07cc82722350bf4fe35b9ed00d49f876
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_62.pkl
+    md5: 3a8b9c4b041b127fb50b32dc924dea00
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_63.pkl
+    md5: 0615c6549fb0a57d4d314717e18b0fd3
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_64.pkl
+    md5: d89d53eafd21093fe0c574c24fc9caeb
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_65.pkl
+    md5: 3001db5fd7bf7d098cf26979db2dcfb1
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_66.pkl
+    md5: ecd2fcc9f00a2ef35b69088f5535a5c6
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_67.pkl
+    md5: 60ed2c6fedeab0f71c3c386552cb7316
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_68.pkl
+    md5: 3d30cb43de9a4c410b9be7fb6da7da08
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_69.pkl
+    md5: e1244fcf17e39820445b221917114ac7
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_7.pkl
+    md5: 063b61a5ce60589c68dd86a17a2e2527
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_70.pkl
+    md5: 2aaa6ae25f63ec49d950c2dc4ce259a1
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_71.pkl
+    md5: be33876d3a7bf48e1a68027fc4aca717
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_72.pkl
+    md5: fd5bb514cfa775a8361b6b09034c2cce
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_73.pkl
+    md5: 75d14d237d1a2d0ab1297520518ae5c5
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_74.pkl
+    md5: 8216d0dd14126aa5caa787fd147727b3
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_75.pkl
+    md5: c3fa2772be217b9d55eba357c4d470a9
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_76.pkl
+    md5: c63075ae5a68fbb89e7c482a6c20904d
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_77.pkl
+    md5: aa980b3c9ebf57cc838da7333c34c51e
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_78.pkl
+    md5: b569ffe5c7fa8588cc66c0c7a0b8ed90
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_79.pkl
+    md5: 7bcd7feeba57c047d3658fd908906972
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_8.pkl
+    md5: 6d0232a8eb85209cae920b085eb52968
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_80.pkl
+    md5: 988ff08b21ee8524c620866602a73e7e
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_81.pkl
+    md5: 854b981c43cd4c24015962832cc3ceae
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_82.pkl
+    md5: e1937bad53e3bfddf61f9d6312f013e6
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_83.pkl
+    md5: 6c003b8ed38bd4356bc50eff31d3570a
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_84.pkl
+    md5: 4f8e81ca1e26fa6990c6c8f0fa0c8301
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_85.pkl
+    md5: b81cac6937e4883e0b90864a98e52b94
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_86.pkl
+    md5: af510f7c725a3838fe2514c3bd90d543
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_87.pkl
+    md5: 2245edff296bb8b75fca8fa333442d2f
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_88.pkl
+    md5: 8471ae8b0afa98bde548cb73df652528
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_89.pkl
+    md5: e118ae638e7002c2a98aff9755dfa8ec
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_9.pkl
+    md5: 553da9128773b3a36e352485eb07fc5a
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_90.pkl
+    md5: 9aa923ad74f088c271d314e452938782
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_91.pkl
+    md5: 7364622884fee503ec500685a8e3956b
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_92.pkl
+    md5: 58fe95f59551fdcbddf771cab2ffcb84
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_93.pkl
+    md5: 5f5dc74df19d777caf63735fe61f09e4
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_94.pkl
+    md5: 36198bb66cd150349947f0f39443671b
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_95.pkl
+    md5: a280fd0e835a3c5f2725cd60d9162c37
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_96.pkl
+    md5: 51113e07183a70f5aa340cc24afc9d8a
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_97.pkl
+    md5: 3cc6bd80f2cb10bd97f55fcdee278c62
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_98.pkl
+    md5: 43a67904f20efdb6dbf15b6387b7d927
+    size: 3251535
+  - relpath: dacon/d236117/models/cases_99.pkl
+    md5: 77ce0f03c2a98299e6b0c2b6800ab1e9
+    size: 3251535
+  - relpath: dacon/d236117/models/train_data.pkl
+    md5: 4fdf2b86703b11d1109e5d2cf1e57cf0
+    size: 12584118
+  - relpath: dacon/d236117/uploads/baseline_submission.csv
+    md5: 859a6a26c5a5c87fa8083386b68f5dea
+    size: 24913
+  - relpath: dacon/d236117/uploads/capm_cat_daily_252_30p_close_f.csv
+    md5: beb751ba0889de3e5ae15b687151601e
+    size: 33126
+  - relpath: dacon/d236117/uploads/capm_lgb_daily_252_30p_close_f.csv
+    md5: 5e6d6912e62cd7e5fd3fcd1ea2e2d60e
+    size: 24913
+  - relpath: dacon/d236117/uploads/capm_lr_daily_252_30p_close_e.csv
+    md5: 2dda7daf1214acf30722540682c37a01
+    size: 24913
+  - relpath: dacon/d236117/uploads/capm_lr_daily_252_30p_close_f.csv
+    md5: 45a161fc1e8b7da8b133600f0b8bdeef
+    size: 24913
+  - relpath: dacon/d236117/uploads/capm_rf_daily_252_30p_close_f.csv.csv
+    md5: f517521b1fb1ef50af2c029e559bb004
+    size: 188604
+  - relpath: dacon/d236117/uploads/capm_xgb_daily_252_30p_close_f.csv
+    md5: 92d6c80a9d0f9bce642f0acfcbe7a81f
+    size: 24913
