@@ -11,3 +11,10 @@ debug_script/*
 
 # in progress
 docs/architecture/
+language/
+resource/
+DL.ipynb
+README.md
+APIs.md
+WAS-WebServer.md
+dvc.sh
