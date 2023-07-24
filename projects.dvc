@@ -23,3 +23,15 @@ outs:
     md5: 86e00ce48d1ee2511cd86d7c55b31a1e
   - relpath: dacon/d236117/train.csv
     md5: 6874b12d8b92b1fbbb9eb11bad8de217
+  - relpath: dacon/d236125/building_info.csv
+    md5: 716c81b70aa14372508305acc6613728
+    size: 4105
+  - relpath: dacon/d236125/sample_submission.csv
+    md5: 4f57dba5630314802820a94e7f330167
+    size: 284277
+  - relpath: dacon/d236125/test.csv
+    md5: 9a5213b822039a07339fc6718b94b34d
+    size: 770690
+  - relpath: dacon/d236125/train.csv
+    md5: 7b308489eb0e52d84b64f9d80905b637
+    size: 12058381
