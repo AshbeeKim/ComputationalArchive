@@ -1,9 +1,0 @@
-[submodule "language/kotlin"]
-	path = language/kotlin
-	url = git@github.com:AshbeeKim/kotlin_study.git
-[submodule "language/dart/lang"]
-	path = language/dart/lang
-	url = git@github.com:AshbeeKim/dart_study.git
-[submodule "language/dart/flutter"]
-	path = language/dart/flutter
-	url = git@github.com:AshbeeKim/flutter_study.git
