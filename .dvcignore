@@ -11,3 +11,5 @@ debug_script/*
 docs/
 language/
 projects/src/*
+catboost_info
+wandb

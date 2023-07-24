@@ -2,8 +2,20 @@ outs:
 - hash: md5
   path: projects
   files:
+  - relpath: dacon/d236117/backups/capm_cat_daily_252_30p_close.csv.csv
+    md5: 62977fcfc8ada549801a76062cfb147a
+    size: 19677
+  - relpath: dacon/d236117/backups/capm_lr_daily_252_30p_close.csv.csv
+    md5: 45a161fc1e8b7da8b133600f0b8bdeef
+    size: 24913
+  - relpath: dacon/d236117/backups/capm_lr_excess_252_30p_close.csv.csv
+    md5: 058d25877f5dadd655b5b38262b4f8e5
+    size: 24913
   - relpath: dacon/d236117/backups/capm_rf_daily_252_30p_close.csv.csv
     md5: d10fd61e93135bb56780ae735c5762c1
+    size: 24913
+  - relpath: dacon/d236117/backups/capm_xgb_excess_252_30p_close.csv.csv
+    md5: a031b917b29fee35ea61c59d05b1de7f
     size: 24913
   - relpath: dacon/d236117/models/cases_0.pkl
     md5: 5cb76125928939f1306ebc744bef7f14
@@ -314,6 +326,9 @@ outs:
   - relpath: dacon/d236117/uploads/capm_cat_daily_252_30p_close_f.csv
     md5: beb751ba0889de3e5ae15b687151601e
     size: 33126
+  - relpath: dacon/d236117/uploads/capm_cat_daily_252_30p_close_f.csv.csv
+    md5: beb751ba0889de3e5ae15b687151601e
+    size: 33126
   - relpath: dacon/d236117/uploads/capm_lgb_daily_252_30p_close_f.csv
     md5: 5e6d6912e62cd7e5fd3fcd1ea2e2d60e
     size: 24913
@@ -323,9 +338,18 @@ outs:
   - relpath: dacon/d236117/uploads/capm_lr_daily_252_30p_close_f.csv
     md5: 45a161fc1e8b7da8b133600f0b8bdeef
     size: 24913
+  - relpath: dacon/d236117/uploads/capm_lr_daily_252_30p_close_f.csv.csv
+    md5: 97b8489d806b882b18151d4023703bfa
+    size: 188378
+  - relpath: dacon/d236117/uploads/capm_lr_excess_252_30p_close_f.csv.csv
+    md5: 35f751e758bda30c7cec29495c1ef14d
+    size: 188618
   - relpath: dacon/d236117/uploads/capm_rf_daily_252_30p_close_f.csv.csv
     md5: f517521b1fb1ef50af2c029e559bb004
     size: 188604
   - relpath: dacon/d236117/uploads/capm_xgb_daily_252_30p_close_f.csv
     md5: 92d6c80a9d0f9bce642f0acfcbe7a81f
     size: 24913
+  - relpath: dacon/d236117/uploads/capm_xgb_excess_252_30p_close_f.csv.csv
+    md5: 7c59d02aa5ba58bea9deb14af919b4af
+    size: 171689

@@ -8,8 +8,8 @@ outs:
     md5: d033e06a85601baec5a7a1280c1f3931
     size: 13459
   - relpath: dacon/d236117/CAPM.ipynb
-    md5: 15fc64296926192d8fdc1d8fc8b18eea
-    size: 63342
+    md5: 0abbb32ac5b65c9acd3b76c9548999bc
+    size: 185152370
   - relpath: dacon/d236117/README.md
     md5: 03f06f85810765118781e2c01212fc04
     size: 7440
@@ -19,18 +19,6 @@ outs:
   - relpath: dacon/d236117/append_case.py
     md5: b0ae7661dcd78f75a448c030a75de0a6
     size: 807
-  - relpath: dacon/d236117/catboost_info/catboost_training.json
-    md5: c947ce27d59727c3e72880b8e0a24f01
-    size: 10163
-  - relpath: dacon/d236117/catboost_info/learn/events.out.tfevents
-    md5: 3958bcbb7cd509e92a3e39e7a80433c9
-    size: 4798
-  - relpath: dacon/d236117/catboost_info/learn_error.tsv
-    md5: 5c413df5bec55b09b30f937bb9b339a8
-    size: 1686
-  - relpath: dacon/d236117/catboost_info/time_left.tsv
-    md5: 1a88ae6e85d6109e1aa4b94881eb6ebd
-    size: 1017
   - relpath: dacon/d236117/sample_submission.csv
     md5: 86e00ce48d1ee2511cd86d7c55b31a1e
   - relpath: dacon/d236117/train.csv
