@@ -15,6 +15,5 @@ language/
 resource/
 DL.ipynb
 README.md
-APIs.md
-WAS-WebServer.md
+docs
 dvc.sh
