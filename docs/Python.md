@@ -25,7 +25,7 @@
 
 > #### [Generic OS Service](https://docs.python.org/3.9/library/allos.html)
 - [x] os
-- [ ] io
+- [x] io
 - [x] time
 - [ ] argparse
 - [x] [logging](https://github.com/AshbeeKim/cs-archive/wiki/Python-logger)
@@ -42,14 +42,18 @@
 > #### [Development Tools](https://docs.python.org/3.9/library/development.html)
 - [x] typing
 - [ ] pydoc
-- [ ] doctest/unittest/test
+- [x] doctest/unittest/test
 
 > #### [Debugging and Profiling](https://docs.python.org/3.9/library/debug.html)
+- [x] time
 - [x] timeit
+- [ ] pstats
+
 
 > #### [Software Packaging and Distribution](https://docs.python.org/3.9/library/distribution.html)
 - [ ] distutils
-- [ ] venv
+- [x] venv
+- [x] setuptools
 
 > #### [Python Runtime Services](https://docs.python.org/3.9/library/python.html)
 - [x] sys
@@ -62,5 +66,6 @@
 <!--
 > #### [Importing Modules](https://docs.python.org/3.9/library/modules.html)
 -->
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F1D7E,100:8e37ac&height=200&section=footer&text=Thank%20You&fontSize=50&fontAlignY=70&fontColor=fff"/>
