@@ -1,38 +1,27 @@
 # Study
 
 ## CS
-### [OS]()
-### [Network]()
-### [Testing]()
-### [Algorithm]()
-### [Versioning]()
-### [Architecture]()
+### OS
+### Network
+### [Testing](https://github.com/AshbeeKim/cs-archive/wiki/Testing)
+### Algorithm
+### Versioning
+### Architecture
 
 
 ## Lang
 ### [Python](https://github.com/AshbeeKim/cs-archive/wiki/Python)
-**basic**
-- [ ] [logger]()
-- [ ] re
-- [ ] decorator
-
-**package manage tools**
-
-**web**
-
-**llm**
-
-### [Dart]()
+### Dart
 
 ## Cloud
-### [Concept](https://github.com/AshbeeKim/cs-archive/wiki/GCP)
-* SaaS, IaaS, PaaS
+### Concept
+* [SaaS, IaaS, PaaS](https://github.com/AshbeeKim/cs-archive/wiki/Concept-SIPaaS)
 * DaaS, SECaaS, STaaS
 * FaaS, BaaS
 * MaaS, CaaS, XaaS
 
-### [GCP](https://github.com/AshbeeKim/cs-archive/wiki/GCP)
-* note
-* path
+### GCP
+* [note](https://github.com/AshbeeKim/cs-archive/wiki/GCP-note)
+* [path](https://github.com/AshbeeKim/cs-archive/wiki/GCP-path)
 
 ## Paper
