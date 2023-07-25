@@ -7,3 +7,6 @@
 [submodule "language/dart/flutter"]
 	path = language/dart/flutter
 	url = git@github.com:AshbeeKim/flutter_study.git
+[submodule "docs/AlgorithmsAndStructures"]
+	path = docs/AlgorithmsAndStructures
+	url = git@github.com:AshbeeKim/algorithms-and-structures.git
