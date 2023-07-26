@@ -35,3 +35,12 @@ outs:
   - relpath: dacon/d236125/train.csv
     md5: 7b308489eb0e52d84b64f9d80905b637
     size: 12058381
+  - relpath: others/P20230620051/README.md
+    md5: 04e4615a6ba252da70030785f24e82ac
+    size: 992
+  - relpath: others/P20230620051/정책제안서 작성양식_2023.hwp
+    md5: c4ce80da7ec986ca5ba6071d0b1b0094
+    size: 81408
+  - relpath: others/P20230620051/최종 공모전 안내문_2023.pdf
+    md5: 715e9ec2b001789914d9650c3a4d1790
+    size: 152931
