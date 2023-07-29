@@ -1,14 +1,6 @@
 outs:
-- hash: md5
+- md5: 54e8dd26c53ceeafab8379d5d85b5055.dir
+  size: 20723598
+  nfiles: 5
+  hash: md5
   path: papers
-  files:
-  - relpath: NCloud_서비스 아이콘 및 활용예시_230421.pptx
-    md5: b76c7a7bdf95ac46b04e6078c5906860
-  - relpath: '[Chapter 1]인공지능 학습용 데이터구축 사업관리 통합교육_v1.0.pdf'
-    md5: 60acb55d00cf7800b3cba018dd2af0cd
-  - relpath: '[Chapter 2]인공지능 학습용 데이터 구축 품질관리_v1.0.pdf'
-    md5: 0ef3701e829184b3414bf1e7f4c17547
-  - relpath: '[Chapter 3]TTA 품질검증 및 협업 플랫폼 사용 안내_v1.2.pdf'
-    md5: 786ddae00352f820b17832f7daa26aa0
-  - relpath: '[Chapter 4] AI 허브 최종 데이터 제출 및 개방 절차 안내_v1.1.pdf'
-    md5: 966a35eb5b70b762075f9b28690ea111

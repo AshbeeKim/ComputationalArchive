@@ -1,5 +1,5 @@
 [core]
-    remote = benchmark/projects
+    remote = ./.env
     hardlink_lock = true
     autostage = true
 ['remote "./.env"']
@@ -18,6 +18,13 @@
     gdrive_service_account_json_file_path = ../.env/gdrive-proj-service.json
 ['remote "benchmark/projects"']
     url = gdrive://1R0nk5N5GoZyOuT4QLg5_yhnyohmQ-9s2/benchmark
+    gdrive_acknowledge_abuse = true
+    gdrive_client_id = client-id
+    gdrive_user_credentials_file = ../.env/gdrive-proj-client.json
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = ../.env/gdrive-proj-service.json
+['remote "papers"']
+    url = gdrive://1R0nk5N5GoZyOuT4QLg5_yhnyohmQ-9s2/papers
     gdrive_acknowledge_abuse = true
     gdrive_client_id = client-id
     gdrive_user_credentials_file = ../.env/gdrive-proj-client.json

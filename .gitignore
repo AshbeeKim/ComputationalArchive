@@ -8,6 +8,8 @@ debug_script/*
 # dvc
 .env
 /projects
+/benchmark/projects
+/papers
 
 # in progress
 docs/architecture/
@@ -17,4 +19,3 @@ DL.ipynb
 README.md
 docs
 dvc.sh
-/download
