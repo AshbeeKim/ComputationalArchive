@@ -1,0 +1,6 @@
+outs:
+- md5: 54e8dd26c53ceeafab8379d5d85b5055.dir
+  size: 20723598
+  nfiles: 5
+  hash: md5
+  path: download
