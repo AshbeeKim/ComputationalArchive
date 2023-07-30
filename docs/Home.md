@@ -7,7 +7,7 @@
 ### [Algorithms & Structures](https://github.com/AshbeeKim/cs-archive/wiki/AlgorithmsAndStructure)
 ### Versioning
 ### Architecture
-
+### [MLOps](https://github.com/AshbeeKim/cs-archive/wiki/MLOps)
 
 ## Lang
 ### [Python](https://github.com/AshbeeKim/cs-archive/wiki/Python)

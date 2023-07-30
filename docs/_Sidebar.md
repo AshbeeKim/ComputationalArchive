@@ -3,9 +3,10 @@
 <h3>OS</h3>
 <h3>Network</h3>
 <h3><a href="https://github.com/AshbeeKim/cs-archive/wiki/Testing">Testing</a></h3>
-<h3>Algorithm</h3>
+<h3><a href="https://github.com/AshbeeKim/cs-archive/wiki/AlgorithmsAndStructureg">Algorithms & Structures</a></h3>
 <h3>Versioning</h3>
 <h3>Architecture</h3>
+<h3><a href="https://github.com/AshbeeKim/cs-archive/wiki/MLOps">MLOps</a></h3>
 <h2>Lang</h2>
 <details>
     <summary><h3>Python</h3></summary>
