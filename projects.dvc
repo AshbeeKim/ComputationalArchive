@@ -35,6 +35,183 @@ outs:
   - relpath: dacon/d236125/train.csv
     md5: 7b308489eb0e52d84b64f9d80905b637
     size: 12058381
+  - relpath: others/P20230620051/2021/(10월) 소상공인시장 경기동향조사.xlsx
+    md5: 17d2f4b83b513dc86dba25dd8f4cf498
+    size: 592153
+  - relpath: others/P20230620051/2021/(11월) 소상공인시장 경기동향조사.xlsx
+    md5: e8815132b13bfce3440bfb0c22391387
+    size: 588467
+  - relpath: others/P20230620051/2021/(12월) 소상공인시장 경기동향조사.xlsx
+    md5: 3c07577969602d6040fbae9ac6e0aa50
+    size: 586878
+  - relpath: others/P20230620051/2021/(1월) 소상공인시장 경기동향조사_소상공인.xlsx
+    md5: d6e843628cfbed8f8108a423fcf68570
+    size: 359762
+  - relpath: others/P20230620051/2021/(1월) 소상공인시장 경기동향조사_전통시장.xlsx
+    md5: 617b92df910e069ab09327767f76a50c
+    size: 202361
+  - relpath: others/P20230620051/2021/(2월) 소상공인시장 경기동향조사.xlsx
+    md5: 3ec0d419851ff8c52c4142f234f5c550
+    size: 601209
+  - relpath: others/P20230620051/2021/(3월) 소상공인시장 경기동향조사.xlsx
+    md5: ffa757e75fca7de5c688581fc90ed5ac
+    size: 580301
+  - relpath: others/P20230620051/2021/(4월) 소상공인시장 경기동향조사.xlsx
+    md5: 9aaab1640cd4dcb43822e43551bb4f3b
+    size: 579880
+  - relpath: others/P20230620051/2021/(5월) 소상공인시장 경기동향조사.xlsx
+    md5: ac6c41f7566c89969f1dcb45d4adbf90
+    size: 614159
+  - relpath: others/P20230620051/2021/(6월) 소상공인시장 경기동향 조사.xlsx
+    md5: 246a1f5bf95220c69f571fd3f81aab13
+    size: 598132
+  - relpath: others/P20230620051/2021/(7월) 소상공인시장 경기동향조사.xlsx
+    md5: 431aa9fdd820933ba4d34409717e187b
+    size: 596850
+  - relpath: others/P20230620051/2021/(8월) 소상공인시장 경기동향조사.xlsx
+    md5: 19fd072d2def1a71a075207564efb960
+    size: 596088
+  - relpath: others/P20230620051/2021/(9월) 소상공인시장 경기동향조사.xlsx
+    md5: 1f5c78baae22d756e5cd024bf4baa73e
+    size: 596882
+  - relpath: others/P20230620051/2021/1인창조기업실태조사_코드집.xlsx
+    md5: 05c6666ed01f4515092c3263ece3f665
+    size: 47731
+  - relpath: others/P20230620051/2021/1인창조기업실태조사.xlsx
+    md5: 80c6d85e7d906acad7c612d5f52e7677
+    size: 2272523
+  - relpath: others/P20230620051/2021/202001_중소기업경기전망조사.xls
+    md5: 9d5e13adf6315bf3fbb31b91bbfc9032
+    size: 2701824
+  - relpath: others/P20230620051/2021/202002_중소기업경기전망조사.xls
+    md5: 218e54be9e31ae77f0812673c2a29e24
+    size: 2629632
+  - relpath: others/P20230620051/2021/202003_중소기업경기전망조사.xls
+    md5: 1c1adc5a6d84818df49e6580e38edf61
+    size: 2643968
+  - relpath: others/P20230620051/2021/202004_중소기업경기전망조사.xls
+    md5: c3831404d3d06e2161b6f724ff9f35b0
+    size: 2653184
+  - relpath: others/P20230620051/2021/202005_중소기업경기전망조사.xls
+    md5: ada742572602e8cc507f9a3fb6f61234
+    size: 2637824
+  - relpath: others/P20230620051/2021/202006_중소기업경기전망조사.xls
+    md5: b34e1c85059ec9bd4b650faf5e50f96e
+    size: 2625536
+  - relpath: others/P20230620051/2021/202007_중소기업경기전망조사.xls
+    md5: 338d8d454577021dcc683798a8625c8a
+    size: 2639360
+  - relpath: others/P20230620051/2021/202008_중소기업경기전망조사.xls
+    md5: 742506585300fb587b9dcdd20d9f807b
+    size: 2620928
+  - relpath: others/P20230620051/2021/202009_중소기업경기전망조사.xls
+    md5: a7bd2196e4a877bacdd64c4e68a7061d
+    size: 2626560
+  - relpath: others/P20230620051/2021/202010_중소기업경기전망조사.xls
+    md5: dcff1b0a04e23cced15b56c08a877609
+    size: 2630656
+  - relpath: others/P20230620051/2021/202011_중소기업경기전망조사.xls
+    md5: cedcd5aadf98ade8840bb27f0b733b6b
+    size: 2628608
+  - relpath: others/P20230620051/2021/202012_중소기업경기전망조사.xls
+    md5: 29ec96f35d27a7cae21fa4a0ca464dcb
+    size: 2611712
+  - relpath: others/P20230620051/2021/2020년 상반기.xlsx
+    md5: 794bb69b5ddcf1ae84ee5ede2f36c209
+    size: 1311814
+  - relpath: others/P20230620051/2021/2020년 하반기.xlsx
+    md5: ed6d09f2064788272b502115dd806adf
+    size: 1277560
+  - relpath: others/P20230620051/2021/기업가정신실태조사_코드집.xlsx
+    md5: 8bed002c0c2ca2bb9ff892a8cb0afe0a
+    size: 20324
+  - relpath: others/P20230620051/2021/벤처기업정밀실태조사_코드집.xlsx
+    md5: 66977815c0b7a1877ee032b1e4a80e30
+    size: 19214
+  - relpath: others/P20230620051/2021/소모성자재납품업실태조사_코드집.xlsx
+    md5: c6b6f15b82965fa7dd73d6b8a86f3721
+    size: 41965
+  - relpath: others/P20230620051/2021/소상공인시장경기동향조사_조사표.pdf
+    md5: 442018cffb8a193583a6ad2a12a5778d
+    size: 151741
+  - relpath: others/P20230620051/2021/소상공인시장경기동향조사_코드집.xlsx
+    md5: dcd681f6a733ac894c68624b823719ab
+    size: 80008
+  - relpath: others/P20230620051/2021/소상공인실태조사_조사표.pdf
+    md5: e81de88aeb48a1b10cf8e4a63fb20f79
+    size: 493366
+  - relpath: others/P20230620051/2021/소상공인실태조사_코드집.xlsx
+    md5: 95ff40e4447407156ca42c038a900572
+    size: 19500
+  - relpath: others/P20230620051/2021/여성기업실태조사_코드집.xlsx
+    md5: c7c2bf2cc6074dd0f1e832302a0ce8f3
+    size: 82980
+  - relpath: others/P20230620051/2021/장애인기업실태조사_조사표.pdf
+    md5: 8133f3c3e1b2f6107523ec1172033496
+    size: 1193082
+  - relpath: others/P20230620051/2021/장애인기업실태조사_코드집.xlsx
+    md5: 4db99e9f6ce60ed14e3d9e2c7303af48
+    size: 50270
+  - relpath: others/P20230620051/2021/중소기업경기전망조사_코드집.xlsx
+    md5: 94e361648d50f67bbe15c72eeb247bd5
+    size: 47418
+  - relpath: others/P20230620051/2021/중소기업기술통계조사_코드집.pdf
+    md5: e4e4a63f4017023167ab012f8e734c7e
+    size: 796024
+  - relpath: others/P20230620051/2021/중소기업실태조사_코드집(서비스업).pdf
+    md5: 95af7e5a6ab357b41d1920d6e8cf512a
+    size: 302779
+  - relpath: others/P20230620051/2021/중소기업실태조사_코드집(일반항목).pdf
+    md5: f942c0a26faeb344cf45fe6bc575d8f9
+    size: 270599
+  - relpath: others/P20230620051/2021/중소기업실태조사_코드집(전체).xlsx
+    md5: 0fc44830ee473c4b298b9b55d2abd597
+    size: 83795
+  - relpath: others/P20230620051/2021/중소기업실태조사_코드집(제조업).pdf
+    md5: e2f31a3e77f8eba045263828e8c03ce0
+    size: 339142
+  - relpath: others/P20230620051/2021/중소기업정보화수준조사_코드집.xlsx
+    md5: 5fd3f55b2e2a77d9351300d552effb4e
+    size: 108529
+  - relpath: others/P20230620051/2021/중소제조업직종별임금조사_코드집.xlsx
+    md5: da64cfebda636be4efe8f6a54ac06223
+    size: 17075
+  - relpath: others/P20230620051/2021/기업가정신실태조사[기업편].xlsx
+    md5: 74d64a30fcd766d057ce2c4bdb00bcfd
+    size: 1405048
+  - relpath: others/P20230620051/2021/벤처기업정밀실태조사.xlsx
+    md5: 266aa997a5bd736d825cce8716615d3e
+    size: 3855463
+  - relpath: others/P20230620051/2021/서비스업.xlsx
+    md5: 88ba1df17d6ad90718a0d0bec388d327
+    size: 15077075
+  - relpath: others/P20230620051/2021/소모성자재납품업실태조사.xlsx
+    md5: 10d021aa8d6c2b65059d881da87bd3fa
+    size: 1318551
+  - relpath: others/P20230620051/2021/소상공인실태조사.xlsx
+    md5: 96b2b1d03b9e98d93fce879f829ebdb5
+    size: 17152669
+  - relpath: others/P20230620051/2021/여성기업실태조사.xlsx
+    md5: 56b44b0ace8e70ba59b48d37babb2851
+    size: 2954414
+  - relpath: others/P20230620051/2021/일반항목.xlsx
+    md5: fb18ed59178ccdbd503423b4829f50ca
+    size: 1248894
+  - relpath: others/P20230620051/2021/장애인기업실태조사.xlsx
+    md5: faa0ccb335d8326047912eae01042d49
+    size: 7659230
+  - relpath: others/P20230620051/2021/제조업.xlsx
+    md5: 142fc00b3713204c9dba845b00f1488d
+    size: 16035871
+  - relpath: others/P20230620051/2021/중소기업기술통계조사.xlsx
+    md5: ff0ee0e68b625a1cfb5d28c3ab707b9a
+    size: 4318420
+  - relpath: others/P20230620051/2021/중소기업정보화수준조사.xlsx
+    md5: cd6624e1ae86451954968ea1a4aebbae
+    size: 14817451
+  - relpath: others/P20230620051/2021/창업기업실태조사.xlsx
+    md5: 5e7ff24e6ad9044f1ac1350dea2d7b75
+    size: 6118145
   - relpath: others/P20230620051/README.md
     md5: 04e4615a6ba252da70030785f24e82ac
     size: 992
