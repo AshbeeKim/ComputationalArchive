@@ -212,12 +212,209 @@ outs:
   - relpath: others/P20230620051/2021/창업기업실태조사.xlsx
     md5: 5e7ff24e6ad9044f1ac1350dea2d7b75
     size: 6118145
+  - relpath: others/P20230620051/2022/(매월)소상공인시장 경기동향(BSI)조사.xlsx
+    md5: 4850b98a4703dba5bc14e5c0bd0f632d
+    size: 4272410
+  - relpath: others/P20230620051/2022/1인창조기업실태조사_결과보고서.pdf
+    md5: 22f92b038cca3d10d92f87ae9fdd4b81
+    size: 12245759
+  - relpath: others/P20230620051/2022/1인창조기업실태조사_변수가이드.xlsx
+    md5: 1a2e7cfd1160c912de65438ee543fe22
+    size: 53072
+  - relpath: others/P20230620051/2022/202101.xlsx
+    md5: 3a1d9b0ad4767aac14f2d49e79db4fab
+    size: 542732
+  - relpath: others/P20230620051/2022/202102.xlsx
+    md5: 3fa2b8834520c91a6d36a464ca833e77
+    size: 550375
+  - relpath: others/P20230620051/2022/202103.xlsx
+    md5: 4ed364571953a7c6fdf600fe7a0f8ae5
+    size: 523181
+  - relpath: others/P20230620051/2022/202104.xlsx
+    md5: 7723df8e54939780af4d75679344cb62
+    size: 539923
+  - relpath: others/P20230620051/2022/202105.xlsx
+    md5: 72aeebd507985891610cbe00ed8fc3e0
+    size: 540342
+  - relpath: others/P20230620051/2022/202106.xlsx
+    md5: 6aa93bd6121e1768103c269379ccbd8d
+    size: 537999
+  - relpath: others/P20230620051/2022/202107.xlsx
+    md5: 7614d89179c29918ed191a911ccd2f94
+    size: 541852
+  - relpath: others/P20230620051/2022/202108.xlsx
+    md5: f9da81edef1280863de3ddeb7514b943
+    size: 544283
+  - relpath: others/P20230620051/2022/202109.xlsx
+    md5: 65634fdb66a2e04c80c94c04b0e7db1e
+    size: 535303
+  - relpath: others/P20230620051/2022/202110.xlsx
+    md5: c7228c8313b59ad1e352e26991cf1477
+    size: 537159
+  - relpath: others/P20230620051/2022/202111.xlsx
+    md5: 1d1ef829a82588d35297942ee4cea750
+    size: 535013
+  - relpath: others/P20230620051/2022/202112.xlsx
+    md5: f6445aa32cc02549bbc9871f6f3bb300
+    size: 532480
+  - relpath: others/P20230620051/2022/벤처기업정밀실태조사_CODE BOOK_최종.xlsx
+    md5: 509d630f68b56c25fff7cdb96c9bd514
+    size: 49768
+  - relpath: others/P20230620051/2022/소모성자재납품업실태조사_코드집.xlsx
+    md5: c6b6f15b82965fa7dd73d6b8a86f3721
+    size: 41965
+  - relpath: others/P20230620051/2022/소상공인시장경기동향조사_(자료 이용시
+      주의사항) 소상공인시장경기동향조사.hwp
+    md5: 2b9561aa4dad9799a7d2957aa4a31dd1
+    size: 34816
+  - relpath: others/P20230620051/2022/소상공인시장경기동향조사_(조사표)  소상공인시장
+      경기동향(BSI)조사.pdf
+    md5: 8f9c9702048529a963f4488d63e8b53c
+    size: 140872
+  - relpath: others/P20230620051/2022/소상공인시장경기동향조사_(파일설계서)
+      소상공인시장 경기동향(BSI)조사.xlsx
+    md5: 779cebee1ae0bfbc58f13de923baa4d6
+    size: 118932
+  - relpath: others/P20230620051/2022/소상공인실태조사_(조사표) 소상공인실태조사.pdf
+    md5: cefe6e91fb41b81070a779909676c9d4
+    size: 493688
+  - relpath: others/P20230620051/2022/소상공인실태조사_원데이터.xlsx
+    md5: 91454fa1a4f1482c24b0a345962330df
+    size: 10151444
+  - relpath: others/P20230620051/2022/소상공인실태조사_자료 이용시 주의사항.hwp
+    md5: 6d6638ece928ac0fec3593d50e641d6e
+    size: 23040
+  - relpath: others/P20230620051/2022/소상공인실태조사_항목및코드정보.xlsx
+    md5: 33440f733facf5128563f560ea05d021
+    size: 30947
+  - relpath: others/P20230620051/2022/여성기업실태조사_변수정보표.xlsx
+    md5: c7c2bf2cc6074dd0f1e832302a0ce8f3
+    size: 82980
+  - relpath: others/P20230620051/2022/여성기업실태조사_원데이터.xlsx
+    md5: ce8cb646457dd2d096438b881e8a32b7
+    size: 3056012
+  - relpath: others/P20230620051/2022/장애인기업실태조사_(보고서) 장애인기업
+      실태조사_0324.pdf
+    md5: 87cb61113e1a5bf8a5f0cea261724c02
+    size: 8100546
+  - relpath: others/P20230620051/2022/장애인기업실태조사_가중치.xlsx
+    md5: 9bc3ffca7e4199315a6edcfd75c9b0b4
+    size: 142587
+  - relpath: others/P20230620051/2022/장애인기업실태조사_원데이터.xlsx
+    md5: 54d8cdf553f1ff4e969d160963a4e647
+    size: 17013347
+  - relpath: others/P20230620051/2022/장애인기업실태조사_항목및코드집.xlsx
+    md5: d1d566e356f1a49d2f184f0ab2a095b5
+    size: 52335
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_10월 경기전망조사
+      결과보고서.hwp
+    md5: 84c40fb2cd923c29717d586052bcdca3
+    size: 2445312
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_11월 경기전망조사
+      결과보고서.hwp
+    md5: 3b60ac7a23aaa89cd07ad37a05eff613
+    size: 2432512
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_12월 경기전망조사
+      결과보고서.hwp
+    md5: 1dd40933dd2d1f039600382d9c7c9642
+    size: 2405888
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_1월 경기전망조사
+      결과보고서.hwp
+    md5: 52c7495c0e7e2f9237763f0b48133ff5
+    size: 2378240
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_2022년 항목 및
+      코드집.xlsx
+    md5: 28624b79c16daae9aadb8ecc2cb7b1fc
+    size: 156254
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_2월 경기전망조사
+      결과보고서.hwp
+    md5: e4f6151c5eef1d50dcef3921ddd0db2b
+    size: 2416128
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_3월 경기전망조사
+      결과보고서.hwp
+    md5: 0ff670ed94448be6e6f158f3485a0358
+    size: 2412544
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_4월 경기전망조사
+      결과보고서.hwp
+    md5: 06bc9016e2917695f57e6ff229e876d0
+    size: 2413056
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_5월 경기전망조사
+      결과보고서.hwp
+    md5: 40200b5cec85b0b48bdc9caca101eb38
+    size: 2416640
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_6월 경기전망조사
+      결과보고서.hwp
+    md5: 3812671025a59969a8dc014d033583f9
+    size: 2413568
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_7월 경기전망조사
+      결과보고서.hwp
+    md5: e610d8b654d2651ce6b9df51c8161265
+    size: 2387968
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_8월 경기전망조사
+      결과보고서.hwp
+    md5: 65705a7fcd47e8d94e32b0c92bc44793
+    size: 2397184
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_9월 경기전망조사
+      결과보고서.hwp
+    md5: 64251d958a6121b1b75a64a4077d5acf
+    size: 2392576
+  - relpath: others/P20230620051/2022/중소기업기술통계조사_코드설계서.pdf
+    md5: ef449034f6d12ea5f79326904c786cb1
+    size: 725711
+  - relpath: others/P20230620051/2022/중소기업실태조사_(서비스업) 코드설계서.pdf
+    md5: 5881d69e4b404566e5ae0721f5f509b9
+    size: 300580
+  - relpath: others/P20230620051/2022/중소기업실태조사_(일반항목) 코드설계서.pdf
+    md5: 54bcf7a23e65a9c94c73bfdb4a81b5c5
+    size: 249388
+  - relpath: others/P20230620051/2022/중소기업실태조사_(제조업) 코드설계서.pdf
+    md5: f40d768a573f14679a96a32cfe1d6324
+    size: 338844
+  - relpath: others/P20230620051/2022/중소제조업직종별임금조사_코드설계서.xlsx
+    md5: bbbe9c966a5ae0fdd81211fd5c3a6cd6
+    size: 32695
+  - relpath: others/P20230620051/2022/창업기업실태조사_변수설명.xlsx
+    md5: 2b94fda63211f5e9afe6e94d605b2128
+    size: 13597
+  - relpath: others/P20230620051/2022/창업기업실태조사_창업기업실태조사 보고서(공표용).hwp
+    md5: 8bd7e3885610becb9c9b82554dd3d215
+    size: 9320448
+  - relpath: others/P20230620051/2022/기술통계조사 마이크로데이터.xlsx
+    md5: 3354212c17b1421e2f8e77b40ef1f9b3
+    size: 5331388
+  - relpath: others/P20230620051/2022/마이크로데이터.xlsx
+    md5: fd83231c79cfa10c4499e0fd8455199e
+    size: 4128113
+  - relpath: others/P20230620051/2022/상반기  임금조사.xlsx
+    md5: 1e1c567c234cc944b5abfe6c64b4e2d5
+    size: 1352641
+  - relpath: others/P20230620051/2022/소모성자재납품업실태조사.xlsx
+    md5: 10d021aa8d6c2b65059d881da87bd3fa
+    size: 1318551
+  - relpath: others/P20230620051/2022/원자료 및 코드값.xlsx
+    md5: cd8e45fc084103317ad9553d610ef5d6
+    size: 5563574
+  - relpath: others/P20230620051/2022/원자료.xlsx
+    md5: b0eac6d785518f4342ab969fae7a7d7f
+    size: 4785177
+  - relpath: others/P20230620051/2022/잠정MD_서비스업.xlsx
+    md5: 44d39012b04622a1c7f6417f9d443eee
+    size: 15309726
+  - relpath: others/P20230620051/2022/잠정MD_일반항목.xlsx
+    md5: 4bdb0160c3414800f92fb915f875cdcb
+    size: 1994254
+  - relpath: others/P20230620051/2022/잠정MD_제조업.xlsx
+    md5: bc64240eae1c049800fea9a2e40452df
+    size: 16167870
+  - relpath: others/P20230620051/2022/하반기 임금조사.xlsx
+    md5: c585f93b47744c58211dad8908ef06c1
+    size: 1363368
   - relpath: others/P20230620051/README.md
     md5: 04e4615a6ba252da70030785f24e82ac
     size: 992
   - relpath: others/P20230620051/metadata.json
-    md5: 54743735eb2e65ebedcdaad90e5dfbc3
-    size: 20976
+    md5: 25a193e2cecca7af2ba330b0bae94656
+    size: 20316
   - relpath: others/P20230620051/정책제안서 작성양식_2023.hwp
     md5: c4ce80da7ec986ca5ba6071d0b1b0094
     size: 81408
