@@ -413,8 +413,8 @@ outs:
     md5: 04e4615a6ba252da70030785f24e82ac
     size: 992
   - relpath: others/P20230620051/metadata.json
-    md5: 25a193e2cecca7af2ba330b0bae94656
-    size: 20316
+    md5: 571c466b16838794066cbfa5a0cbee70
+    size: 29292
   - relpath: others/P20230620051/정책제안서 작성양식_2023.hwp
     md5: c4ce80da7ec986ca5ba6071d0b1b0094
     size: 81408
