@@ -322,10 +322,10 @@ outs:
       결과보고서.hwp
     md5: 52c7495c0e7e2f9237763f0b48133ff5
     size: 2378240
-  - relpath: others/P20230620051/2022/중소기업경기전망조사_2022년 항목 및
+  - relpath: others/P20230620051/2022/중소기업경기전망조사_2021년 항목 및
       코드집.xlsx
-    md5: 28624b79c16daae9aadb8ecc2cb7b1fc
-    size: 156254
+    md5: 7e2a683ba473e5b8f7936375e0eba438
+    size: 156615
   - relpath: others/P20230620051/2022/중소기업경기전망조사_2월 경기전망조사
       결과보고서.hwp
     md5: e4f6151c5eef1d50dcef3921ddd0db2b
@@ -577,7 +577,7 @@ outs:
     size: 18801368
   - relpath: others/P20230620051/2023/중소기업정보화수준조사_코드북 중소기업
       정보화수준조사.xls
-    md5: 01676e16c3de1981e98126ead3a0eb15
+    md5: 13e879c0d3a744a7e1caeedfbbb11267
     size: 144384
   - relpath: others/P20230620051/2023/중소제조업직종별임금조사_코드설계서.xlsx
     md5: bbbe9c966a5ae0fdd81211fd5c3a6cd6
@@ -631,14 +631,17 @@ outs:
     md5: 1b7dea181b5b5e03c513ace817666315
     size: 1352181
   - relpath: others/P20230620051/README.md
-    md5: 04e4615a6ba252da70030785f24e82ac
-    size: 992
+    md5: bd8ec9b0ab9c95dccabccf9eca61b7d2
+    size: 3115
+  - relpath: others/P20230620051/analysis.ipynb
+    md5: f8edfa21df5c9877c03bdb406ff84a59
+    size: 21073
   - relpath: others/P20230620051/metadata.json
-    md5: 571c466b16838794066cbfa5a0cbee70
-    size: 29292
+    md5: eddc75e16512d24d0ec0be06ad60c855
+    size: 29293
+  - relpath: others/P20230620051/최종 공모전 안내문_2023.pdf
+    md5: 715e9ec2b001789914d9650c3a4d1790
+    size: 152931
   - relpath: others/P20230620051/정책제안서 작성양식_2023.hwp
     md5: c4ce80da7ec986ca5ba6071d0b1b0094
     size: 81408
-  - relpath: others/P20230620051/최종 공모전 안내문_2023.pdf
-    md5: 715e9ec2b001789914d9650c3a4d1790
-    size: 152931
