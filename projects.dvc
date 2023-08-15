@@ -577,7 +577,7 @@ outs:
     size: 18801368
   - relpath: others/P20230620051/2023/중소기업정보화수준조사_코드북 중소기업
       정보화수준조사.xls
-    md5: 13e879c0d3a744a7e1caeedfbbb11267
+    md5: eb32d23f1c36b0d082103f66e03bd6e2
     size: 144384
   - relpath: others/P20230620051/2023/중소제조업직종별임금조사_코드설계서.xlsx
     md5: bbbe9c966a5ae0fdd81211fd5c3a6cd6
@@ -631,13 +631,13 @@ outs:
     md5: 1b7dea181b5b5e03c513ace817666315
     size: 1352181
   - relpath: others/P20230620051/README.md
-    md5: bd8ec9b0ab9c95dccabccf9eca61b7d2
-    size: 3115
+    md5: 0c9dd35e7182d877d53b48b407597b51
+    size: 3116
   - relpath: others/P20230620051/analysis.ipynb
-    md5: f8edfa21df5c9877c03bdb406ff84a59
-    size: 21073
+    md5: 4794a5aadca951ecc4eebd0cf0a804f6
+    size: 229724496
   - relpath: others/P20230620051/metadata.json
-    md5: eddc75e16512d24d0ec0be06ad60c855
+    md5: 057cd749d411b8510ad00f8af0b190d4
     size: 29293
   - relpath: others/P20230620051/최종 공모전 안내문_2023.pdf
     md5: 715e9ec2b001789914d9650c3a4d1790
