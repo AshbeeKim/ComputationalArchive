@@ -13,3 +13,4 @@ language/
 projects/src/*
 catboost_info
 wandb
+.ipynb_checkpoints/
